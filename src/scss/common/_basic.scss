@@ -13,6 +13,15 @@ body {
   font-family: $f-reg;
 }
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    max-width: 900px;
+  }
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
