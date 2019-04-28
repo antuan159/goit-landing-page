@@ -1,7 +1,48 @@
 @font-face {
-  font-family: 'RobotoSlabRegular';
-  src: url('../fonts/RobotoSlabRegular/RobotoSlabRegular.woff2') format('woff2'),
-  url('../fonts/RobotoSlabRegular/RobotoSlabRegular.woff') format('woff');
-  font-weight: normal;
+  font-family: 'AcromBold';
+  src: url('../../fonts/AcromBold/AcromBold.woff2') format('woff2'),
+  url('../../fonts/AcromBold/AcromBold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AcromExtraBold';
+  src: url('../../fonts/AcromExtraBold/AcromExtraBold.woff2') format('woff2'),
+  url('../../fonts/AcromExtraBold/AcromExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AcromMedium';
+  src: url('../../fonts/AcromMedium/AcromMedium.woff2') format('woff2'),
+  url('../../fonts/AcromMedium/AcromMedium.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AcromRegular';
+  src: url('../../fonts/AcromRegular/AcromRegular.woff2') format('woff2'),
+  url('../../fonts/AcromRegular/AcromRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FuturaBold';
+  src: url('../../fonts/FuturaBold/FuturaBold.woff2') format('woff2'),
+  url('../../fonts/FuturaBold/FuturaBold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'FuturaMedium';
+  src: url('../../fonts/FuturaMedium/FuturaMedium.woff2') format('woff2'),
+  url('../../fonts/FuturaMedium/FuturaMedium.woff') format('woff');
+  font-weight: 600;
   font-style: normal;
 }
