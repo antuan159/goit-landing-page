@@ -1,1 +1,15 @@
-$f-reg: 'RobotoSlabRegular';
+//fonts
+$f-acrom-bold: 'AcromBold', sans-sefir;
+$f-acrom-extra-bold: 'AcromExtraBold', sans-sefir;
+$f-acrom-medium: 'AcromMedium', sans-sefir;
+$f-acrom-regular: 'AcromRegular', sans-sefir;
+$f-futura-bold: 'FuturaBold', sans-sefir;
+$f-futura-medium: 'FuturaMedium', sans-sefir;
+
+//colors
+$c-black: #000000;
+
+//media queries
+$m-mobile: 'max-width: 767px';
+$m-tablet: 'min-width: 768px';
+$m-desktop: 'min-width: 1200px';
