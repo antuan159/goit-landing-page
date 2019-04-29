@@ -1,1 +1,63 @@
-$f-reg: 'RobotoSlabRegular';
+//font size 
+
+$fz-262px: 262px;
+$fz-156px: 156px;
+$fz-120px: 120px;
+$fz-99px: 99px;
+$fz-50px: 50px;
+$fz-45px: 45px;
+$fz-36px: 36px;
+$fz-30px: 30px;
+$fz-27px: 27px;
+$fz-25px: 25px;
+$fz-24px: 24px;
+$fz-23px: 23px;
+$fz-20px: 20px;
+$fz-18px: 18px;
+$fz-16px: 16px;
+$fz-15px: 15px;
+$fz-14px: 14px;
+$fz-13px: 13px;
+$fz-12px: 12px;
+$fz-11px: 11px;
+$fz-10px: 10px;
+$fz-9px: 9px;
+$fz-8px: 8px;
+$fz-7px: 7px;
+$fz-5px: 5px;
+
+//color
+$c-header: #052139;
+$c-white: #fff;
+$c-litle-white:#f9f9f9;
+$c-shade-gray: #afb0b3;
+$c-black: #000000;
+$c-shade-blue: #3f4144;
+$c-shade-yellow: #ff6b08;
+$c-light-blue: #16ebfe;
+$c-light-black: rgba(0, 0, 0, 0.051);
+$c-navy-blue: #3c3b40;
+$c-footer-first: #a2a2a2;
+$c-footer-second: #65666a;
+
+//box-shadow
+$btn-shadow: 0px 5px 6px 0px rgba(196, 87, 15, 0.259);
+$shadow-price: 0px 8px 14px 0px rgba(0, 0, 0, 0.15);
+
+//fonts
+$f-acrom-bold: 'AcromBold', sans-sefir;
+$f-acrom-extra-bold: 'AcromExtraBold', sans-sefir;
+$f-acrom-medium: 'AcromMedium', sans-sefir;
+$f-acrom-regular: 'AcromRegular', sans-sefir;
+$f-futura-bold: 'FuturaBold', sans-sefir;
+$f-futura-medium: 'FuturaMedium', sans-sefir;
+
+// font-weight
+$fw-bold: bold;
+$fw-normal: normal;
+
+
+//media queries
+$m-mobile: 'max-width: 767px';
+$m-tablet: 'min-width: 768px';
+$m-desktop: 'min-width: 1200px';
