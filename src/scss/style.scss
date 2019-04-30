@@ -5,4 +5,25 @@
 @import "common/mixin";
 
 //section-opportunity
-@import "common/section-opportunity__title.scss";
+@import "section-opportunity/section-opportunity__title";
+@import "section-opportunity/big-online__title";
+@import "section-opportunity/big-online__text";
+@import "section-opportunity/section-opportunity__foto";
+@import "section-opportunity/section-opportunity__subtitle";
+@import "section-opportunity/first-card__head";
+@import "section-opportunity/first-card";
+@import "section-opportunity/first-card__title";
+@import "section-opportunity/first-card__text";
+@import "section-opportunity/second-card__title";
+@import "section-opportunity/third-card__title";
+@import "section-opportunity/fourth-card__title";
+@import "section-opportunity/second-card__text";
+@import "section-opportunity/third-card__text";
+@import "section-opportunity/fourth-card__text";
+@import "section-opportunity/span__text-bold";
+@import "section-opportunity/second-card__head";
+@import "section-opportunity/second-card";
+@import "section-opportunity/third-card";
+@import "section-opportunity/fourth-card";
+@import "section-opportunity/section-opportunity";
+@import "section-opportunity/big-online";

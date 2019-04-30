@@ -1,0 +1,6 @@
+.big-online__title{
+    @include text-dec($f-acrom-extra-bold, $fz-14px, $c-black, $fw-bold);
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 14px;
+}

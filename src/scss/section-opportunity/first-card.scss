@@ -1,0 +1,18 @@
+.first-card {
+  position: relative;
+  margin-bottom: 44px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    right: 20px;
+    width: 80px;
+    height: 68px;
+    background: url("../../img/icon-section/11-icon1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 68px;
+  }
+}

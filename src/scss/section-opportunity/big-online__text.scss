@@ -1,0 +1,5 @@
+.big-online__text{
+    @include text-dec($f-acrom-regular, $fz-13px, $c-shade-blue);
+    margin-top: 0px;
+    margin-bottom: 0px;
+}

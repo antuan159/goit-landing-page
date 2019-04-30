@@ -1,0 +1,16 @@
+.fourth-card {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background: url("../../img/icon-section/11-icon3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 54px;
+    height: 109px;
+    top: 3px;
+    right: 28px;
+  }
+}
