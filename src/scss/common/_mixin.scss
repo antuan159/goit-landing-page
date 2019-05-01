@@ -17,3 +17,10 @@
   top: $t;
   background: $b;
 }
+
+@mixin button($w, $h){
+  background-color: $c-shade-yellow;
+  box-shadow: $btn-shadow;
+  width: $w;
+  height: $h;
+}

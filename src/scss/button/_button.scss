@@ -1,0 +1,22 @@
+.button {
+  @include button(200px, 50px);
+  @include txt($f-acrom-extra-bold, $fz-10px, $c-white);
+  text-transform: uppercase;
+  border: none;
+
+  @keyframes shadow {
+    from {
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    }
+    50% {
+      box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.75);
+    }
+    to {
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    }
+  }
+
+  &:hover {
+    animation: shadow 2s infinite ease-in-out;
+  }
+}
