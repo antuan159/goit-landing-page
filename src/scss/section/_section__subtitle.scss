@@ -1,5 +1,5 @@
 .section__subtitle {
-  @include txt($f-acrom-bold, $fz-14px, $c-black);
+  @include txt($f-acrom-bold, $fz-14px);
 
   &::before {
     @include bef(20px, 3px, 0, 8px);
