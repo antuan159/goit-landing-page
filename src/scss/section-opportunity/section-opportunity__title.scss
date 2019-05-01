@@ -1,5 +1,5 @@
 .section-opportunity__title{
-    @include text-dec($f-acrom-extra-bold, $fz-18px, $c-black, $fw-bold);
+    @include txt($f-acrom-extra-bold, $fz-18px, $c-black);
     text-transform: uppercase;
     margin-top: 0;
     margin-bottom: 22px;

@@ -1,5 +1,5 @@
 .second-card__head{
-    @include text-dec($f-acrom-medium, $fz-13px, $c-white, $fw-normal);
+    @include txt($f-acrom-medium, $fz-13px, $c-white);
     background: $c-black;
     display: inline-block;
     margin-top: 0;

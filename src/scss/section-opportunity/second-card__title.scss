@@ -1,5 +1,5 @@
 .second-card__title {
-  @include text-dec($f-acrom-extra-bold, $fz-13px, $c-black);
+  @include txt($f-acrom-extra-bold, $fz-13px, $c-black);
   text-transform: uppercase;
   padding-right: 100px;
   position: relative;
@@ -10,7 +10,7 @@
     content: "01_";
     position: absolute;
     display: inline-block;
-    @include text-dec($f-futura-bold, $fz-38px, $c-black);
+    @include txt($f-futura-bold, $fz-38px, $c-black);
     opacity: 0.05;
     top: -6px;
     right: 92px;

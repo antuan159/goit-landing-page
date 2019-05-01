@@ -1,20 +1,12 @@
 .section-opportunity__subtitle{
-    @include text-dec($f-acrom-bold, $fz-14px, $c-black, $fw-medium);
+    @include txt($f-acrom-bold, $fz-14px, $c-black);
     padding-left: 24px;
     position: relative;
     margin-top: 0;
     margin-bottom: 38px;
 
     &::before{
-        content: '';
-        position: absolute;
-        display: inline-block;
-        box-sizing: border-box;
-        width: 20px;
-        height: 2px;
-        background: #000;
-        left: 0;
-        top: 8px;
+        @include bef(20px, 3px, 0, 8px);
     }
     
 }
