@@ -1,15 +1,17 @@
 @import "common/flexboxgrid";
 @import "common/fonts";
 @import "common/variable";
-@import "common/basic";
 @import "common/mixin";
+@import "common/basic";
 
 //section-opportunity
-@import "section-opportunity/section-opportunity__title";
+@import "section/section__title";
+@import "section/section__subtitle";
+
 @import "section-opportunity/big-online__title";
 @import "section-opportunity/big-online__text";
 @import "section-opportunity/section-opportunity__foto";
-@import "section-opportunity/section-opportunity__subtitle";
+@import "section-opportunity/opportunity__subtitle";
 @import "section-opportunity/first-card__head";
 @import "section-opportunity/first-card";
 @import "section-opportunity/first-card__title";
@@ -26,4 +28,6 @@
 @import "section-opportunity/third-card";
 @import "section-opportunity/fourth-card";
 @import "section-opportunity/section-opportunity";
+@import "section-opportunity/opportunity__title";
+@import "section-opportunity/opportunity__subtitle";
 @import "section-opportunity/big-online";

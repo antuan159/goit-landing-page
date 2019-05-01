@@ -1,6 +1,6 @@
 //mixin text
-@mixin txt($ff: $font-monserat, $fs: $fz-16px, $col: $c-black) {
-  font-family: $ff;
+@mixin txt($ff: $f-acrom-regular, $fs: $fz-16px, $col: $c-black) {
+  font-family: $ff; 
   font-size: $fs;
   color: $col;
 }
