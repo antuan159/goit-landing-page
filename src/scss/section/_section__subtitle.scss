@@ -1,7 +1,10 @@
 .section__subtitle {
-  @include txt($f-acrom-bold, $fz-14px);
+  @include txt($f-acrom-medium, $fz-14px);
+  @include margin();
 
-  &::before {
-    @include bef(20px, 3px, 0, 8px);
+  @media (min-width: 768px) {
+    order: 1;
+    font-size: $fz-9px;
   }
+  
 }

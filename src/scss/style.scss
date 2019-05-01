@@ -2,21 +2,26 @@
 @import "common/fonts";
 @import "common/variable";
 @import "common/mixin";
+@import "common/plaseholders";
+
 @import "common/basic";
 
 //section-opportunity
+@import "button/button";
 @import "section/section__title";
 @import "section/section__subtitle";
-@import "button/button";
+@import "cards/cards";
+@import "cards/cards__head";
+@import "cards/cards__title";
+@import "cards/cards__subtitle";
 
-@import "section-opportunity/big-online__title";
 @import "section-opportunity/big-online__text";
 @import "section-opportunity/section-opportunity__foto";
 @import "section-opportunity/opportunity__subtitle";
 @import "section-opportunity/first-card__head";
 @import "section-opportunity/first-card";
 @import "section-opportunity/first-card__title";
-@import "section-opportunity/first-card__text";
+@import "section-opportunity/first-card__subtitle";
 @import "section-opportunity/second-card__title";
 @import "section-opportunity/third-card__title";
 @import "section-opportunity/fourth-card__title";
@@ -32,3 +37,14 @@
 @import "section-opportunity/opportunity__title";
 @import "section-opportunity/opportunity__subtitle";
 @import "section-opportunity/big-online";
+
+//section-course
+@import "section-course/section-course__subtitle-text";
+@import "section-course/section-course__foto";
+@import "course-list/course-list";
+@import "course-list/course-list__title";
+@import "course-list/course-list__subtitle";
+@import "course-list/course-list__item";
+@import "course/course";
+@import "course/course__title";
+@import "course/course__subtitle";

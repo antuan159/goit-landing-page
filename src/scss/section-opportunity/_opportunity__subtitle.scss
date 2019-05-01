@@ -1,6 +1,22 @@
-.opportunity__subtitle{
+.opportunity__subtitle {
+  position: relative;
+
+  @media (max-width: 767px) {
     padding-left: 24px;
-    position: relative;
-    margin-top: 0;
-    margin-bottom: 38px;
+    @include margin(38px, auto, auto);
+    order: 3;
+
+    &::before {
+      @include bef(20px, 3px, 0, 8px);
+    }
+  }
+
+  @media (min-width: 768px) {
+    order: 3;
+    padding-left: 35px;
+   
+    &::before {
+      @include bef(29px, 4px, 0, 8px);
+    }
+  }
 }

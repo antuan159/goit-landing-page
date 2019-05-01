@@ -1,5 +1,14 @@
-.section-opportunity__foto{
-    margin: 0;
-    padding: 0;
-    margin-bottom: 62px;
+.section-opportunity__foto {
+  padding: 0;
+
+  @media (max-width: 767px) {
+    @include margin(62px);
+    order: 2;
+  }
+  @media (min-width: 768px) {
+    position: absolute;
+    bottom: 176px;
+    right: 0;
+  }
+  
 }

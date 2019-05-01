@@ -1,4 +1,9 @@
 .section__title{
     @include txt($f-acrom-extra-bold, $fz-18px, $c-black);
     text-transform: uppercase;
+    @include margin();
+    
+    @media (min-width: 768px){
+        font-size: 27px;
+    }
 }

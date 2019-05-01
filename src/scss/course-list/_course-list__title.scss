@@ -1,0 +1,8 @@
+.course-list__title {
+  @include txt($f-acrom-extra-bold, $fz-14px);
+  text-transform: uppercase;
+
+  @media (max-width: 767px) {
+    @include margin(6px);
+  }
+}

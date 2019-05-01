@@ -1,3 +1,9 @@
-.big-online{
-    margin-bottom: 40px;
+.big-online {
+  @media (max-width: 767px) {
+    @include margin(40px, auto, auto);
+    order: 1;
+  }
+  @media (min-width: 768px) {
+    order: 2;
+  }
 }

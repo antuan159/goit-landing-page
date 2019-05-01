@@ -1,0 +1,5 @@
+.cards__head{
+    @include txt($f-acrom-medium, $fz-14px, $c-white);
+    background: $c-black;
+    display: inline-block;
+}

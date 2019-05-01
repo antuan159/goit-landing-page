@@ -1,4 +1,12 @@
-.opportunity__title{
-    margin-top: 0;
-    margin-bottom: 22px;
+.opportunity__title {
+  padding: 0;
+
+  @media (max-width: 767px) {
+    @include margin(22px, auto, auto);
+    order: 1;
+  }
+  @media (min-width: 768px) {
+    order: 1;
+    //@include margin(26px, auto, auto);
+  }
 }
