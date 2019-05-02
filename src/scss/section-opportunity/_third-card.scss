@@ -1,18 +1,17 @@
 .third-card {
-  @extend %card;
+  position: relative;
+  margin-bottom: 44px;
 
-  @media (max-width: 767px) {
-    &::after {
-      content: "";
-      position: absolute;
-      display: inline-block;
-      background: url("../../img/icon-section/11-icon3.png");
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 54px;
-      height: 109px;
-      bottom: 28px;
-      right: 6px;
-    }
+  &::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    background: url("../../img/icon-section/11-icon3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 54px;
+    height: 109px;
+    top: 3px;
+    right: 28px;
   }
 }

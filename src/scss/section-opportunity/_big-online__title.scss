@@ -1,7 +1,6 @@
-.first-card__title{
+.big-online__title{
     @include text($f-acrom-extra-bold, 14px, $c-black);
     text-transform: uppercase;
-    padding-right: 84px;
     margin-top: 0;
     margin-bottom: 14px;
 }

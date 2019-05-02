@@ -1,5 +1,7 @@
-.first-card__head {
-  @media (max-width: 767px) {
-    @include margin(36px);
-  }
+.first-card__head{
+    @include text($f-acrom-medium, 13px, $c-white);
+    background: $c-black;
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 36px;
 }
