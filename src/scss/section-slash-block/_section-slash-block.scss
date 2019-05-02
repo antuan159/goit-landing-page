@@ -1,0 +1,16 @@
+.section-slash-block {
+  position: relative;
+  padding-left: 19px;
+  max-width: 360px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 30px;
+    left: -9px;
+    bottom: 0;
+    background-color: $c-black;
+    transform: rotate(20deg);
+  }
+}

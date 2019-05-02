@@ -1,7 +1,6 @@
 .fourth-card__text {
-  @include margin();
-
-  @media (max-width: 767px) {
-    padding-right: 50px;
-  }
+  @include txt($f-acrom-regular, $fz-13px, $c-shade-blue);
+  padding-right: 50px;
+  margin-top: 0;
+  margin-bottom: 0px;
 }

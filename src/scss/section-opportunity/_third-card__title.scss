@@ -1,19 +1,20 @@
 .third-card__title {
+  @include txt($f-acrom-extra-bold, $fz-13px, $c-black);
+  text-transform: uppercase;
   position: relative;
+  padding-right: 114px;
+  margin-top: 0;
+  margin-bottom: 14px;
 
-  @media (max-width: 767px) {
-    padding-right: 120px;
-
-    &::after {
-      content: "02_";
-      position: absolute;
-      display: inline-block;
-      @include txt($f-futura-bold, $fz-38px, $c-black);
-      opacity: 0.05;
-      top: -12px;
-      right: 90px;
-      transform-origin: center;
-      transform: rotate(270deg);
-    }
+  &::after {
+    content: "02_";
+    position: absolute;
+    display: inline-block;
+    @include txt($f-futura-bold, $fz-38px, $c-black);
+    opacity: 0.05;
+    top: -12px;
+    right: 90px;
+    transform-origin: center;
+    transform: rotate(270deg);
   }
 }

@@ -28,37 +28,30 @@ $fz-7px: 7px;
 $fz-5px: 5px;
 
 //color
-$c-header: #052139;
+$c-header: #052139; // поменяй название
 $c-white: #fff;
-$c-litle-white:#f9f9f9;
+$c-little-white:#f9f9f9;
 $c-shade-gray: #afb0b3;
-$c-black: #000000;
-$c-shade-blue: #3f4144;
-$c-shade-yellow: #ff6b08;
+$c-black: #000;
+$c-shade-blue: #3f4144; // поменяй название
+$c-orange: #ff6b08;
 $c-light-blue: #16ebfe;
 $c-light-black: rgba(0, 0, 0, 0.051);
-$c-navy-blue: #3c3b40;
-$c-footer-first: #a2a2a2;
-$c-footer-second: #65666a;
+$c-navy-blue: #3c3b40; // поменяй название
+$c-footer-first: #a2a2a2; // поменяй название
+$c-footer-second: #65666a; // поменяй название
 
 //box-shadow
 $btn-shadow: 0px 5px 6px 0px rgba(196, 87, 15, 0.259);
 $shadow-price: 0px 8px 14px 0px rgba(0, 0, 0, 0.15);
 
 //fonts
-$f-acrom-bold: 'AcromBold', sans-sefir;
-$f-acrom-extra-bold: 'AcromExtraBold', sans-sefir;
-$f-acrom-medium: 'AcromMedium', sans-sefir;
-$f-acrom-regular: 'AcromRegular', sans-sefir;
-$f-futura-bold: 'FuturaBold', sans-sefir;
-$f-futura-medium: 'FuturaMedium', sans-sefir;
-
-// font-weight
-$fw-bold: bold;
-$fw-normal: normal;
-$fw-medium: 600;
-
-
+$f-acrom-bold: 'AcromBold', sans-serif;
+$f-acrom-extra-bold: 'AcromExtraBold', sans-serif;
+$f-acrom-medium: 'AcromMedium', sans-serif;
+$f-acrom-regular: 'AcromRegular', sans-serif;
+$f-futura-bold: 'FuturaBold', sans-serif;
+$f-futura-medium: 'FuturaMedium', sans-serif;
 
 //media queries
 $m-mobile: 'max-width: 767px';

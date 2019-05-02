@@ -1,4 +1,15 @@
 //mixin text
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}
+
+@mixin font($f-size, $f-family, $color) {
+  font-size: calculateRem($f-size);
+  font-family: $f-family;
+  color: $color;
+}
+
 @mixin txt($ff: $f-acrom-regular, $fs: $fz-16px, $col: $c-black) {
   font-family: $ff;
   font-size: $fs;
@@ -9,8 +20,6 @@
 @mixin bef($w: 20px, $h: 3px, $l: 0px, $t: 0px, $b: #000) {
   content: "";
   position: absolute;
-  display: inline-block;
-  box-sizing: border-box;
   width: $w;
   height: $h;
   left: $l;
@@ -19,7 +28,7 @@
 }
 
 @mixin button($w, $h) {
-  background-color: $c-shade-yellow;
+  background-color: $c-orange;
   box-shadow: $btn-shadow;
   width: $w;
   height: $h;

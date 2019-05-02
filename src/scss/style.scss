@@ -1,10 +1,28 @@
+@import "common/normalize";
 @import "common/flexboxgrid";
-@import "common/fonts";
 @import "common/variable";
+@import "common/fonts";
 @import "common/mixin";
+@import "common/basic";
 @import "common/plaseholders";
 
-@import "common/basic";
+@import "section-video-step/section-video-step__top";
+@import "section-video-step/section-video-step__center";
+
+@import "section-header/section-header__title";
+@import "section-header/section-header__subtitle";
+
+@import "section-desc/section-desc__text";
+
+@import "section-list/section-list";
+@import "section-list/section-list__item";
+
+@import "video-step/video-step";
+@import "video-step/video-step__text";
+@import "video-step/video-step__text--head";
+
+@import "section-slash-block/section-slash-block";
+@import "section-slash-block/section-slash-block__text";
 
 //section-opportunity
 @import "button/button";
