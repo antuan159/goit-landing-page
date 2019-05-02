@@ -1,9 +1,10 @@
-.section__title{
-    @include txt($f-acrom-extra-bold, $fz-18px, $c-black);
-    text-transform: uppercase;
-    @include margin();
-    
-    // @media (min-width: 768px){
-    //     font-size: 27px;
-    // }
+.section__title {
+  @include font($fz-18px, $f-acrom-extra-bold, $c-black);
+  text-transform: uppercase;
+  line-height: 24px;
+  @include margin();
+
+  // @media (min-width: 768px){
+  //     font-size: 27px;
+  // }
 }

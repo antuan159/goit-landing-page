@@ -1,6 +1,6 @@
-.section-opportunity__title{
-    @include txt($f-acrom-extra-bold, $fz-18px, $c-black);
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 22px;
+.section-opportunity__title {
+  @media (max-width: 767px) {
+    margin: 0 auto 22px;
+    order: 1;
+  }
 }

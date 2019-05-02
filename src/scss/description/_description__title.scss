@@ -1,3 +1,6 @@
-.description__title{
-
+.description__title {
+  @include font($fz-14px, $f-acrom-extra-bold, $c-black);
+  text-transform: uppercase;
+  line-height: 20px;
+  margin: 0;
 }

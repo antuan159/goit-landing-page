@@ -1,0 +1,8 @@
+.section-opportunity-description__text {
+  padding: 0;
+
+  @media (max-width: 767px) {
+    margin: 0 auto;
+    padding-right: 6px;
+  }
+}

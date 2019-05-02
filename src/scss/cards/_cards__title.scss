@@ -1,6 +1,8 @@
 .cards__title {
-  @include txt($f-acrom-extra-bold, $fz-14px, $c-black);
+  @include font($fz-14px, $f-acrom-extra-bold, $c-black);
   text-transform: uppercase;
+  line-height: 20px;
+  margin: 0;
 
   // @media (max-width: 767px) {
   //   &:not(:last-child) {

@@ -1,7 +1,8 @@
-.cards__subtitle{
-    @include txt($f-acrom-regular, $fz-14px, $c-shade-blue);
-
-    // @media (min-width: 768px) {
-    //     font-size: $fz-8px;
-    // }
+.cards__subtitle {
+  @include font($fz-14px, $f-acrom-extra-bold, $c-black);
+  margin: 0;
+  line-height: 20px;
+  // @media (min-width: 768px) {
+  //     font-size: $fz-8px;
+  // }
 }

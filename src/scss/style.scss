@@ -7,6 +7,25 @@
 @import "common/plaseholders";
 
 // common section
+@import "common/basic";
+@import "button/button";
+
+@import "section/section";
+@import "section/section__title";
+@import "section/section__subtitle";
+
+@import "cards/cards";
+@import "cards/cards__head";
+@import "cards/cards__title";
+@import "cards/cards__subtitle";
+@import "cards/cards__text";
+
+@import "description/description";
+@import "description/description__title";
+@import "description/description__text";
+@import "description/description__row";
+// end common section
+
 @import "section-video-step/section-video-step__top";
 @import "section-video-step/section-video-step__center";
 
@@ -26,62 +45,26 @@
 @import "section-slash-block/section-slash-block__text";
 
 //section-opportunity
-@import "common/basic";
-@import "button/button";
+@import "section-opportunity-row/section-opportunity-row__top";
+@import "section-opportunity-row/section-opportunity-row__bottom";
 
-@import "section/section__title";
-@import "section/section__subtitle";
-
-@import "cards/cards";
-@import "cards/cards__head";
-@import "cards/cards__title";
-@import "cards/cards__subtitle";
-@import "cards/cards__text";
-
-@import "description/description";
-@import "description/description__title";
-@import "description/description__text";
-
-//section-opportunity
-
-@import "cards/cards";
-@import "cards/cards__head";
-@import "cards/cards__title";
-@import "cards/cards__subtitle";
-
-@import "big-online/big-online";
-@import "big-online/big-online__title";
-@import "big-online/big-online__text";
-@import "section-opportunity/section-opportunity__foto";
-@import "section-opportunity/section-opportunity__first-row";
-@import "section-opportunity/section-opportunity__second-row";
-@import "section-opportunity/opportunity__subtitle";
-@import "section-opportunity/first-card__head";
-@import "section-opportunity/first-card";
-@import "section-opportunity/first-card__title";
-@import "section-opportunity/first-card__subtitle";
-@import "section-opportunity/second-card__title";
-@import "section-opportunity/third-card__title";
-@import "section-opportunity/fourth-card__title";
-@import "section-opportunity/second-card__text";
-@import "section-opportunity/third-card__text";
-@import "section-opportunity/fourth-card__text";
-@import "section-opportunity/span__text-bold";
-@import "section-opportunity/second-card__head";
-@import "section-opportunity/second-card";
-@import "section-opportunity/third-card";
-@import "section-opportunity/fourth-card";
 @import "section-opportunity/section-opportunity";
-@import "section-opportunity/opportunity__title";
-@import "section-opportunity/opportunity__subtitle";
+@import "section-opportunity/section-opportunity__title";
+@import "section-opportunity/section-opportunity__subtitle";
 
-//section-course
-@import "section-course/section-course__subtitle-text";
-@import "section-course/section-course__foto";
-@import "course-list/course-list";
-@import "course-list/course-list__title";
-@import "course-list/course-list__subtitle";
-@import "course-list/course-list__item";
-@import "course/course";
-@import "course/course__title";
-@import "course/course__subtitle";
+@import "section-opportunity-foto/section-opportunity-foto";
+@import "section-opportunity-foto/section-opportunity-foto__picture";
+
+@import "section-opportunity-icon/section-opportunity-icon__first";
+@import "section-opportunity-icon/section-opportunity-icon__second";
+
+@import "section-opportunity-description/section-opportunity-description";
+@import "section-opportunity-description/section-opportunity-description__title";
+@import "section-opportunity-description/section-opportunity-description__text";
+
+@import "section-opportunity-cards/section-opportunity-cards";
+@import "section-opportunity-cards/section-opportunity-cards__head";
+@import "section-opportunity-cards/section-opportunity-cards__title";
+@import "section-opportunity-cards/section-opportunity-cards__subtitle";
+@import "section-opportunity-cards/section-opportunity-cards-text";
+//end section-opportunity 

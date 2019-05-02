@@ -1,9 +1,9 @@
-.cards__head{
-    @include txt($f-acrom-medium, $fz-14px, $c-white);
-    background: $c-black;
-    display: inline-block;
+.cards__head {
+  @include font($fz-13px, $f-acrom-medium, $c-white);
+  margin: 0;
+  line-height: 17px;
 
-    // @media (min-width: 768px) {
-    //     font-size: $fz-9px;
-    // }
+  // @media (min-width: 768px) {
+  //     font-size: $fz-9px;
+  // }
 }

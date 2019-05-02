@@ -1,5 +1,6 @@
 .section__subtitle {
-  @include txt($f-acrom-medium, $fz-14px);
+  @include font($fz-14px, $f-acrom-medium, $c-black);
+  line-height: 20px;
   @include margin();
 
   // @media (min-width: 768px) {

@@ -1,0 +1,5 @@
+.cards__text {
+  @include font($fz-14px, $f-acrom-regular, $c-mako);
+  margin: 0;
+  line-height: 20px;
+}

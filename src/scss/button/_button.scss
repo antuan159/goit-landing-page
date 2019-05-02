@@ -1,6 +1,6 @@
 .button {
   @include button(200px, 50px);
-  @include txt($f-acrom-extra-bold, $fz-10px, $c-white);
+  @include font( $fz-10px, $f-acrom-extra-bold, $c-white);
   text-transform: uppercase;
   border: none;
 

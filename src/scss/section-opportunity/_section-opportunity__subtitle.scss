@@ -1,20 +1,13 @@
-.section-opportunity__subtitle{
-    @include txt($f-acrom-bold, $fz-14px, $c-black);
-    padding-left: 24px;
+.section-opportunity__subtitle {
+  @media (max-width: 767px) {
+    margin: 0 auto;
+    order: 3;
     position: relative;
-    margin-top: 0;
-    margin-bottom: 38px;
+    padding-left: 28px;
+    padding-right: 6px;
 
-    &::before{
-        content: '';
-        position: absolute;
-        display: inline-block;
-        box-sizing: border-box;
-        width: 20px;
-        height: 2px;
-        background: #000;
-        left: 0;
-        top: 8px;
+    &::before {
+      @include bef(20px, 4px, 0px, 8px);
     }
-    
+  }
 }
