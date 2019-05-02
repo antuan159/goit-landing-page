@@ -7,6 +7,11 @@
   &:hover {
     animation: shadow 2s ease-in-out infinite;
   }
+
+  @media ($m-desktop) {
+    @include button(100%, 50px);
+    font-size: 16px;
+  }
 }
 
 @keyframes shadow {
