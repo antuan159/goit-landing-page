@@ -2,12 +2,12 @@
   @include txt($f-acrom-extra-bold, $fz-14px, $c-black);
   text-transform: uppercase;
 
-  @media (max-width: 767px) {
-    &:not(:last-child) {
-      @include margin(14px);
-    }
-  }
-  @media (min-width: 768px) {
-    font-size: $fz-9px;
-  }
+  // @media (max-width: 767px) {
+  //   &:not(:last-child) {
+  //     @include margin(14px);
+  //   }
+  // }
+  // @media (min-width: 768px) {
+  //   font-size: $fz-9px;
+  // }
 }

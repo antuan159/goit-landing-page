@@ -2,9 +2,8 @@
   @include txt($f-acrom-medium, $fz-14px);
   @include margin();
 
-  @media (min-width: 768px) {
-    order: 1;
-    font-size: $fz-9px;
-  }
-  
+  // @media (min-width: 768px) {
+  //   order: 1;
+  //   font-size: $fz-9px;
+  // }
 }

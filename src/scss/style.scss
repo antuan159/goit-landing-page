@@ -5,11 +5,23 @@
 @import "common/plaseholders";
 
 @import "common/basic";
-
-//section-opportunity
+// common section
 @import "button/button";
+
 @import "section/section__title";
 @import "section/section__subtitle";
+
+@import "cards/cards";
+@import "cards/cards__head";
+@import "cards/cards__title";
+@import "cards/cards__subtitle";
+@import "cards/cards__text";
+
+@import "description/description";
+@import "description/description__title";
+@import "description/description__text";
+
+//section-opportunity
 
 @import "cards/cards";
 @import "cards/cards__head";
