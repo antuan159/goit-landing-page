@@ -2,4 +2,8 @@
     @include txt($f-acrom-medium, $fz-14px, $c-white);
     background: $c-black;
     display: inline-block;
+
+    @media (min-width: 768px) {
+        font-size: $fz-9px;
+    }
 }

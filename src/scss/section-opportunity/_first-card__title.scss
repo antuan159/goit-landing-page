@@ -1,5 +1,10 @@
 .first-card__title {
   @media (max-width: 767px) {
-    padding-right: 96px;
+    padding-right: 114px;
+  }
+  @media (min-width: 768px) {
+    padding-right: 34px;
+    @include margin();
+    z-index: 1;
   }
 }

@@ -12,6 +12,20 @@
     background: url("../../img/icon-section/11-icon1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 68px;
+  }
+
+  @media (min-width: 768px) {
+    &::after {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      top: 0;
+      right: 0;
+      width: 58px;
+      height: 50px;
+      background: url("../../img/icon-section/11-icon1-768.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
   }
 }

@@ -10,13 +10,18 @@
 @import "button/button";
 @import "section/section__title";
 @import "section/section__subtitle";
+
 @import "cards/cards";
 @import "cards/cards__head";
 @import "cards/cards__title";
 @import "cards/cards__subtitle";
 
-@import "section-opportunity/big-online__text";
+@import "big-online/big-online";
+@import "big-online/big-online__title";
+@import "big-online/big-online__text";
 @import "section-opportunity/section-opportunity__foto";
+@import "section-opportunity/section-opportunity__first-row";
+@import "section-opportunity/section-opportunity__second-row";
 @import "section-opportunity/opportunity__subtitle";
 @import "section-opportunity/first-card__head";
 @import "section-opportunity/first-card";
@@ -36,7 +41,6 @@
 @import "section-opportunity/section-opportunity";
 @import "section-opportunity/opportunity__title";
 @import "section-opportunity/opportunity__subtitle";
-@import "section-opportunity/big-online";
 
 //section-course
 @import "section-course/section-course__subtitle-text";

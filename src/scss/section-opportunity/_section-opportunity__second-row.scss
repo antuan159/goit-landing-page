@@ -1,0 +1,5 @@
+.section-opportunity__second-row {
+  @media (min-width: 768px) {
+    @include margin();
+  }
+}

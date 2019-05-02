@@ -1,0 +1,9 @@
+.section-opportunity__first-row {
+  
+  margin-bottom: 38px;
+  position: relative;
+
+  @media (min-width: 768px) {
+    @include margin(64px);
+  }
+}

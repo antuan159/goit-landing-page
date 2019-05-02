@@ -1,3 +1,7 @@
 .span__text-bold{
     @include txt($f-acrom-extra-bold, $fz-14px, $c-black);
+
+    @media (min-width: 768px) {
+        font-size: $fz-8px;
+    }
 }

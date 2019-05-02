@@ -7,4 +7,7 @@
       @include margin(14px);
     }
   }
+  @media (min-width: 768px) {
+    font-size: $fz-9px;
+  }
 }

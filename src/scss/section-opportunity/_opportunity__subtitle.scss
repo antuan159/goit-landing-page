@@ -3,7 +3,7 @@
 
   @media (max-width: 767px) {
     padding-left: 24px;
-    @include margin(38px, auto, auto);
+    @include margin(0, auto, auto);
     order: 3;
 
     &::before {
@@ -16,7 +16,7 @@
     padding-left: 35px;
    
     &::before {
-      @include bef(29px, 4px, 0, 8px);
+      @include bef(29px, 4px, 0, 4px);
     }
   }
 }

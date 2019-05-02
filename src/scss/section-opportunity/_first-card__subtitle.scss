@@ -1,3 +1,7 @@
 .first-card__subtitle {
   @include margin();
+
+  @media (min-width: 768px) {
+    padding-right: 50px;
+  }
 }

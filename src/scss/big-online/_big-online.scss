@@ -1,9 +1,11 @@
 .big-online {
+  padding: 0;
   @media (max-width: 767px) {
     @include margin(40px, auto, auto);
     order: 1;
   }
   @media (min-width: 768px) {
     order: 2;
+    padding-left: 48px;
   }
 }
