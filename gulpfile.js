@@ -35,7 +35,7 @@ gulp.task('sass', function () {
 gulp.task('css-min', function () {
   return gulp.src('src/css/**/*.css')
   .pipe(csso())
-  .pipe(rename('style.min.css'))
+  .pipe(rename('style.css'))
   .pipe(gulp.dest('build/css'))
 });
 

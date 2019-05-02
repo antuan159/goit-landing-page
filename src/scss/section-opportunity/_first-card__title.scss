@@ -1,5 +1,5 @@
 .first-card__title{
-    @include text($f-acrom-extra-bold, 14px, $c-black);
+    @include txt($f-acrom-extra-bold, $fz-14px, $c-black);
     text-transform: uppercase;
     padding-right: 84px;
     margin-top: 0;

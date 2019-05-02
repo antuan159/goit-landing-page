@@ -1,5 +1,5 @@
 .section-opportunity__subtitle{
-    @include text($f-acrom-bold, 14px, $c-black);
+    @include txt($f-acrom-bold, $fz-14px, $c-black);
     padding-left: 24px;
     position: relative;
     margin-top: 0;

@@ -1,5 +1,5 @@
 .first-card__text {
-  @include text($f-acrom-regular, 13px, $c-shade-blue);
+  @include txt($f-acrom-regular, $fz-13px, $c-shade-blue);
   margin-top: 0;
   margin-bottom: 0px;
 }
