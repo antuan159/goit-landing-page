@@ -6,10 +6,6 @@
 @import "common/basic";
 @import "common/plaseholders";
 
-// common section
-@import "common/basic";
-@import "button/button";
-
 @import "section/section";
 @import "section/section__title";
 @import "section/section__subtitle";
@@ -24,25 +20,34 @@
 @import "description/description__title";
 @import "description/description__text";
 @import "description/description__row";
-// end common section
 
-@import "section-video-step/section-video-step__top";
-@import "section-video-step/section-video-step__center";
+
+@import "section-simple-step/section-simple-step";
+@import "section-simple-step/section-simple-step__top-line";
+
+@import "section-video-step/section-video-step";
+@import "section-video-step/section-video-step__top-line";
+@import "section-video-step/section-video-step__center-line";
 
 @import "section-header/section-header__title";
+@import "section-header/section-header_pt";
 @import "section-header/section-header__subtitle";
+@import "section-header/section-header__overlay";
 
 @import "section-desc/section-desc__text";
 
 @import "section-list/section-list";
 @import "section-list/section-list__item";
 
-@import "video-step/video-step";
-@import "video-step/video-step__text";
-@import "video-step/video-step__text--head";
+@import "step/step";
+@import "step/step__text";
+@import "step/step__text_head";
 
 @import "section-slash-block/section-slash-block";
+@import "section-slash-block/section-slash-block_cut";
 @import "section-slash-block/section-slash-block__text";
+
+@import "section-btn/button";
 
 //section-opportunity
 @import "section-opportunity-row/section-opportunity-row__top";

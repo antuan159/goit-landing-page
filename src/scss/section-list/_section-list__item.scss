@@ -1,22 +1,54 @@
 .section-list__item {
   position: relative;
-  flex-basis: 31%;
-  padding-left: 20px;
 
-  &:not(:nth-last-child(-n + 3)) {
-    margin-bottom: 30px;
+  &_half {
+    flex-basis: 50%;
+    padding-right: 30px;
+    padding-left: 44px;
+    overflow: hidden;
+
+    &:not(:nth-last-child(-n + 2)) {
+      margin-bottom: 30px;
+    }
+
+    &::before {
+      counter-increment: step;
+      content: counter(step, decimal-leading-zero)'.';
+      position: absolute;
+      top: 0;
+      left: -10px;
+      @include font(24px, $f-acrom-extra-bold, $c-black);
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      width: 10px;
+      height: 10px;
+      background-color: $c-btn-hover;
+    }
   }
 
-  &::before {
-    counter-increment: step;
-    content: '[0'counter(step, decimal-leading-zero)']';
-    position: absolute;
-    top: 10px;
-    left: -24px;
-    padding: 2px;
-    color: $c-white;
-    @include font(10px, $f-acrom-bold, $c-white);
-    background-color: $c-orange;
-    transform: rotate(-90deg);
+  &_third {
+    flex-basis: 31%;
+    padding-left: 20px;
+
+    &:not(:nth-last-child(-n + 3)) {
+      margin-bottom: 30px;
+    }
+
+    &::before {
+      counter-increment: step;
+      content: '[0'counter(step, decimal-leading-zero)']';
+      position: absolute;
+      top: 10px;
+      left: -24px;
+      padding: 2px;
+      @include font(10px, $f-acrom-bold, $c-white);
+      background-color: $c-orange;
+      transform: rotate(-90deg);
+    }
   }
 }

@@ -21,16 +21,32 @@
   background: $b;
 }
 
-@mixin button($w, $h) {
-  background-color: $c-orange;
-  box-shadow: $btn-shadow;
-  width: $w;
-  height: $h;
-}
-
 @mixin margin($bottom: 0, $left: 0, $right: 0) {
   margin-top: 0;
   margin-left: $left;
   margin-right: $right;
   margin-bottom: $bottom;
+}
+
+%button {
+  @include font(16px, $f-acrom-extra-bold, $c-white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0;
+  width: 100%;
+  background-color: $c-orange;
+  box-shadow: 0 9px 13px rgba(196,87,15, .26);
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $c-btn-hover;
+    box-shadow: 0 9px 13px rgba(23,236,255, .26);
+  }
+
+  &:active {
+    background-color: $c-btn-active;
+    box-shadow: none;
+  }
 }
