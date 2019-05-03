@@ -5,7 +5,7 @@
     padding-right: 116px;
 
     &:nth-last-child(1) {
-      &::after {
+      &::before {
         content: "";
         position: absolute;
         display: inline-block;

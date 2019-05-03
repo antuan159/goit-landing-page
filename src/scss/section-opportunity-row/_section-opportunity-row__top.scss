@@ -1,5 +1,9 @@
 .section-opportunity-row__top {
-  @media (max-width: 767px) {
+  @media ($m-mobile) {
     padding-bottom: 38px;
+  }
+  @media ($m-tablet) {
+    margin-bottom: 64px;
+    position: relative;
   }
 }

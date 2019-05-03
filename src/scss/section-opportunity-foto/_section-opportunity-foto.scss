@@ -1,8 +1,14 @@
 .section-opportunity-foto {
   padding: 0;
 
-  @media (max-width: 767px) {
+  @media ($m-mobile) {
     margin: 0 auto 62px;
     order: 2;
+  }
+
+  @media ($m-tablet) {
+    position: absolute;
+    bottom: 0;
+    right: 0;
   }
 }

@@ -2,7 +2,7 @@
   position: relative;
   @media (max-width: 767px) {
 
-    &::after {
+    &::before {
       content: "";
       position: absolute;
       display: inline-block;

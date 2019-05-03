@@ -1,7 +1,13 @@
 .section-opportunity-description__title {
   padding: 0;
 
-  @media (max-width: 767px) {
+  @media ($m-mobile) {
     margin: 0 auto 16px;
+  }
+  @media ($m-tablet) {
+    padding: 0;
+    margin: 0;
+    padding-right: 25px;
+    margin-left: 52px;
   }
 }

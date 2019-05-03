@@ -1,15 +1,14 @@
 .cards__title {
-  @include font($fz-14px, $f-acrom-extra-bold, $c-black);
-  text-transform: uppercase;
-  line-height: 20px;
   margin: 0;
+  text-transform: uppercase;
 
-  // @media (max-width: 767px) {
-  //   &:not(:last-child) {
-  //     @include margin(14px);
-  //   }
-  // }
-  // @media (min-width: 768px) {
-  //   font-size: $fz-9px;
-  // }
+  @media ($m-mobile) {
+    @include font($fz-14px, $f-acrom-extra-bold, $c-black);
+    line-height: 20px;
+  }
+
+  @media ($m-tablet) {
+    @include font($fz-9px, $f-acrom-extra-bold, $c-black);
+    line-height: 14px;
+  }
 }

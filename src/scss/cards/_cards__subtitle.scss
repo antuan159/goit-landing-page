@@ -1,8 +1,13 @@
 .cards__subtitle {
-  @include font($fz-14px, $f-acrom-extra-bold, $c-black);
   margin: 0;
-  line-height: 20px;
-  // @media (min-width: 768px) {
-  //     font-size: $fz-8px;
-  // }
+  
+  @media ($m-mobile) {
+    @include font($fz-14px, $f-acrom-extra-bold, $c-black);
+    line-height: 20px;
+  }
+
+  @media ($m-tablet) {
+    @include font($fz-8px, $f-acrom-extra-bold, $c-black);
+    line-height: 12px;
+  }
 }

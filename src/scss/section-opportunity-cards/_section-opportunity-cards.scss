@@ -1,13 +1,16 @@
 .section-opportunity-cards {
   position: relative;
-  @media (max-width: 767px) {
+  @media ($m-mobile) {
     margin: 0 auto;
     &:not(:nth-last-child(1)) {
       margin-bottom: 44px;
     }
+    &:nth-child(2) .section-opportunity-cards__text {
+      padding-right: 42px;
+    }
 
     &:nth-child(1) {
-      &::after {
+      &::before {
         content: "";
         position: absolute;
         display: inline-block;
@@ -21,5 +24,10 @@
         min-height: 68px;
       }
     }
+  }
+  
+  @media ($m-tablet) {
+    padding-left: 5px;
+    padding-right: 5px;
   }
 }

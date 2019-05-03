@@ -1,9 +1,16 @@
 .section__title {
-  @include font($fz-18px, $f-acrom-extra-bold, $c-black);
+  margin: 0;
   text-transform: uppercase;
-  line-height: 24px;
-  @include margin();
 
+  @media ($m-mobile) {
+    @include font($fz-18px, $f-acrom-extra-bold, $c-black);
+    line-height: 24px;
+  }
+
+  @media ($m-tablet) {
+    @include font($fz-27px, $f-acrom-extra-bold, $c-black);
+    line-height: 34px;
+  }
   // @media (min-width: 768px){
   //     font-size: 27px;
   // }

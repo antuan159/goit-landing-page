@@ -1,5 +1,13 @@
 .cards__text {
-  @include font($fz-14px, $f-acrom-regular, $c-mako);
   margin: 0;
-  line-height: 20px;
+  
+  @media ($m-mobile) {
+    @include font($fz-14px, $f-acrom-regular, $c-mako);
+    line-height: 20px;
+  }
+
+  @media ($m-tablet) {
+    @include font($fz-8px, $f-acrom-regular, $c-mako);
+    line-height: 12px;
+  }
 }
