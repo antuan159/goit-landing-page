@@ -1,0 +1,33 @@
+.section-opportunity-cards {
+  position: relative;
+  @media ($m-mobile) {
+    margin: 0 auto;
+    &:not(:nth-last-child(1)) {
+      margin-bottom: 44px;
+    }
+    &:nth-child(2) .section-opportunity-cards__text {
+      padding-right: 42px;
+    }
+
+    &:nth-child(1) {
+      &::before {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        right: 0;
+        width: 80px;
+        height: 68px;
+        background: url("../../img/icon-section/11-icon1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 68px;
+      }
+    }
+  }
+  
+  @media ($m-tablet) {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}

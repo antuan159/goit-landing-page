@@ -1,0 +1,17 @@
+.section-opportunity-icon__second {
+  position: relative;
+  @media (max-width: 767px) {
+    &::before {
+      content: "";
+      position: absolute;
+      display: inline-block;
+      background: url("../../img/icon-section/11-icon3.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 54px;
+      height: 109px;
+      top: 0;
+      right: 0;
+    }
+  }
+}

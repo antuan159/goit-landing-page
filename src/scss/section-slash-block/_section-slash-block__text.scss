@@ -1,0 +1,5 @@
+.section-slash-block__text {
+  @include font(18px, $f-acrom-medium, $c-orange);
+  margin: 0;
+  line-height: 20px;
+}

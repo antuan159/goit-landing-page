@@ -1,0 +1,6 @@
+.section-desc__text {
+  @include font(18px, $f-acrom-extra-bold, $c-black);
+  margin: 0;
+  line-height: 26px;
+  text-transform: uppercase;
+}

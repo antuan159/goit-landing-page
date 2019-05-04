@@ -1,0 +1,17 @@
+.section__subtitle {
+  margin: 0;
+
+  @media ($m-mobile) {
+    @include font($fz-14px, $f-acrom-medium, $c-black);
+    line-height: 20px;
+  }
+
+  @media ($m-tablet) {
+    @include font($fz-9px, $f-acrom-medium, $c-black);
+    line-height: 14px;
+  }
+  // @media (min-width: 768px) {
+  //   order: 1;
+  //   font-size: $fz-9px;
+  // }
+}

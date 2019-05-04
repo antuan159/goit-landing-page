@@ -1,0 +1,10 @@
+.course-list__item {
+  @include margin(0, auto, auto);
+  padding: 0;
+  
+  @media (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 28px;
+    }
+  }
+}

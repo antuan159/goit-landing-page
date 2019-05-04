@@ -1,0 +1,12 @@
+.section-opportunity-description__text {
+  padding: 0;
+
+  @media ($m-mobile) {
+    margin: 0 auto;
+    padding-right: 6px;
+  }
+  @media ($m-tablet) {
+    margin: 0;
+    padding: 0;
+  }
+}

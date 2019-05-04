@@ -1,0 +1,13 @@
+.section-opportunity__title {
+  margin: 0 auto;
+
+  @media ($m-mobile) {
+    margin-bottom: 22px;
+    order: 1;
+  }
+
+  @media ($m-tablet) {
+    padding-right: 66px;
+    margin-bottom: 26px;
+  }
+}

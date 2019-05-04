@@ -1,0 +1,8 @@
+.section-opportunity-description__defis_hiden {
+  @media ($m-mobile) {
+    display: none;
+  }
+  @media ($m-tablet) {
+    display: inline-block;
+  }
+}
