@@ -1,8 +1,8 @@
-
 @function calculateRem($size) {
   $remSize: $size / 16px;
   @return #{$remSize}rem;
 }
+
 //mixin text
 @mixin font($f-size, $f-family, $color) {
   font-size: calculateRem($f-size);
@@ -39,6 +39,11 @@
   box-shadow: 0 9px 13px rgba(196,87,15, .26);
   border: none;
   cursor: pointer;
+
+  @media screen and ($m-mobile) {
+    max-width: 220px;
+    margin: auto;
+  }
 
   &:hover {
     background-color: $c-btn-hover;

@@ -3,4 +3,8 @@
   margin: 0;
   line-height: 26px;
   text-transform: uppercase;
+
+  @media screen and ($m-mobile) {
+    text-align: center;
+  }
 }

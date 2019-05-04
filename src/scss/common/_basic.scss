@@ -11,7 +11,18 @@ html {
 html,
 body {
   height: 100%;
-  font-size: 16px;
+
+  @media screen and ($m-mobile) {
+    font-size: 14px;
+  }
+
+  @media screen and ($m-tablet) {
+    font-size: 12px;
+  }
+
+  @media screen and ($m-desktop) {
+    font-size: 16px;
+  }
 }
 
 body {
