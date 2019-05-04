@@ -2,6 +2,10 @@
   position: relative;
   padding-left: 19px;
 
+  @media screen and ($m-mobile) {
+    margin-left: 1.25rem;
+  }
+
   &:before {
     content: '';
     position: absolute;
