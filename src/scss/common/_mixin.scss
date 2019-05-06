@@ -55,3 +55,19 @@
     box-shadow: none;
   }
 }
+
+%square {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+
+%aqua-square {
+  @extend %square;
+  background-color: $c-btn-hover;
+}
+
+%black-square {
+  @extend %square;
+  background-color: $c-black;
+}

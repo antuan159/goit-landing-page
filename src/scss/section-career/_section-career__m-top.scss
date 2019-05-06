@@ -1,0 +1,9 @@
+.section-career__m-top {
+  @media screen and ($m-tablet) {
+    margin-top: -40px;
+  }
+
+  @media screen and ($m-desktop) {
+    margin-top: -75px;
+  }
+}

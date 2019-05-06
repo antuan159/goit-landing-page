@@ -29,13 +29,10 @@
     }
 
     &::after {
+      @extend %aqua-square;
       content: '';
-      position: absolute;
       top: 30px;
       left: 20px;
-      width: 10px;
-      height: 10px;
-      background-color: $c-btn-hover;
     }
   }
 
