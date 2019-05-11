@@ -1,13 +1,12 @@
 .description__text {
+  @include fz(16px);
   margin: 0;
+  font-family: $f-acrom-regular;
+  color: $c-mako;
+  text-align: center;
 
-  @media ($m-mobile) {
-    @include font($fz-14px, $f-acrom-regular, $c-mako);
-    line-height: 20px;
-  }
-
-  @media ($m-tablet) {
-    @include font($fz-8px, $f-acrom-regular, $c-mako);
-    line-height: 12px;
+  @include mq(tablet) {
+    max-width: 300px;
+    text-align: left;
   }
 }

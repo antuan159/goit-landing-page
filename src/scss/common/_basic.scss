@@ -11,24 +11,24 @@ html {
 html,
 body {
   height: 100%;
-
-  @media screen and ($m-mobile) {
-    font-size: 14px;
-  }
-
-  @media screen and ($m-tablet) {
-    font-size: 12px;
-  }
-
-  @media screen and ($m-desktop) {
-    font-size: 16px;
-  }
 }
 
 body {
   margin: 0;
   padding: 0;
   line-height: 1.25;
+
+  @include mq(tablet, max) {
+    font-size: 14px;
+  }
+
+  @include mq(tablet) {
+    font-size: 12px;
+  }
+
+  @include mq(desktop) {
+    font-size: 16px;
+  }
 }
 
 img {
@@ -41,11 +41,11 @@ img {
   width: 100%;
   margin: 0 auto;
 
-  @media screen and (max-width: 480px) {
+  @include mq(small, max) {
     padding: 0 15px;
   }
 
-  @media screen and ($m-mobile) {
+  @include mq(tablet, max) {
     max-width: 448px;
   }
 }
@@ -68,3 +68,5 @@ img {
 .center{
   margin: 0 auto;
 }
+
+@include square;

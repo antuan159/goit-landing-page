@@ -1,85 +1,67 @@
-@import "common/normalize";
-@import "common/flexboxgrid";
-@import "common/variable";
+//  Normalize
+@import "common/vendors/normalize";
+
+//  Grid
+@import "common/grid/flexboxgrid";
+
+//  Settings
+@import "common/settings/variable";
+
+//  Mixins
+@import "common/mixins/bef";
+@import "common/mixins/buttons";
+@import "common/mixins/font-size";
+@import "common/mixins/square";
+@import "common/mixins/breackpoints";
+
+//  Fonts
 @import "common/fonts";
-@import "common/mixin";
+
+//  Basic
 @import "common/basic";
-@import "common/plaseholders";
 
-@import "section/section";
-@import "section/section__title";
-@import "section/section__subtitle";
-
-@import "cards/cards";
-@import "cards/cards__head";
-@import "cards/cards__title";
-@import "cards/cards__subtitle";
-@import "cards/cards__text";
+//  Attention
+@import "attention/attention";
 
 @import "description/description";
-@import "description/description__title";
+@import "description/description__head";
 @import "description/description__text";
-@import "description/description__row";
 
-@import "section-career/section-career";
-@import "section-career/section-career__m-top";
+//  Career
+@import "career/career";
+@import "career/career__m-top";
 
-@import "section-simple-step/section-simple-step";
-@import "section-simple-step/section-simple-step__top-line";
+//  Simple-step
+@import "simple-step/simple-step";
+@import "simple-step/simple-step__top-line";
 
-@import "section-video-step/section-video-step";
-@import "section-video-step/section-video-step__top-line";
-@import "section-video-step/section-video-step__center-line";
+//  Video-step
+@import "video-step/video-step";
+@import "video-step/video-step__top-line";
+@import "video-step/video-step__center-line";
 
-@import "section-header/section-header";
-@import "section-header/section-header__title";
-@import "section-header/section-header_pt";
-@import "section-header/section-header__subtitle";
-@import "section-header/section-header__overlay";
+@import "header/header";
+@import "header/header__title";
+@import "header/header_pt";
+@import "header/header_pb";
+@import "header/header__subtitle";
+@import "header/header__overlay";
 
-@import "section-desc/section-desc";
-@import "section-desc/section-desc__head";
-@import "section-desc/section-desc__text";
+//  List
+@import "list/list";
+@import "list/list_pl";
+@import "list/list__item";
 
-@import "section-list/section-list";
-@import "section-list/section-list__item";
-
+//  Step
 @import "step/step";
 @import "step/step__text";
 @import "step/step__text_head";
+@import "step/step__text_upper";
 
-@import "section-slash-block/section-slash-block";
-@import "section-slash-block/section-slash-block_cut";
-@import "section-slash-block/section-slash-block__text";
+//  Slash-block
+@import "slash-block/slash-block";
+@import "slash-block/slash-block_cut";
+@import "slash-block/slash-block__text";
 
-@import "section-btn/button";
-
-//section-opportunity
-@import "section-opportunity-row/section-opportunity-row__top";
-@import "section-opportunity-row/section-opportunity-row__bottom";
-
-@import "section-opportunity/section-opportunity";
-@import "section-opportunity/section-opportunity__title";
-@import "section-opportunity/section-opportunity__subtitle";
-
-@import "section-opportunity-foto/section-opportunity-foto";
-@import "section-opportunity-foto/section-opportunity-foto__picture";
-
-@import "section-opportunity-icon/section-opportunity-icon__first";
-@import "section-opportunity-icon/section-opportunity-icon__second";
-
-@import "section-opportunity-description/section-opportunity-description";
-@import "section-opportunity-description/section-opportunity-description__title";
-@import "section-opportunity-description/section-opportunity-description__text";
-@import "section-opportunity-description/section-opportunity-description__defis--hiden";
-@import "section-opportunity-description/section-opportunity-description__defis--visible";
-
-@import "section-opportunity-cards/section-opportunity-cards";
-@import "section-opportunity-cards/section-opportunity-cards__head";
-@import "section-opportunity-cards/section-opportunity-cards__title";
-@import "section-opportunity-cards/section-opportunity-cards__title--first";
-@import "section-opportunity-cards/section-opportunity-cards__title--second";
-@import "section-opportunity-cards/section-opportunity-cards__title--third";
-@import "section-opportunity-cards/section-opportunity-cards__subtitle";
-@import "section-opportunity-cards/section-opportunity-cards__text";
-//end section-opportunity 
+//  Button
+@import "button/button";

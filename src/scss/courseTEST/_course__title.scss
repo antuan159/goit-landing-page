@@ -1,7 +1,0 @@
-.course__title {
-  @media (max-width: 767px) {
-    &:not(:last-child) {
-      @include margin(30px, auto, auto);
-    }
-  }
-}

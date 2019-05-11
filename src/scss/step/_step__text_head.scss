@@ -1,4 +1,6 @@
 .step__text_head {
-  @include font(18px, $f-acrom-bold, $c-black);
+  @include fz(18px);
   margin: 0 0 10px;
+  font-family: $f-acrom-extra-bold;
+  color: $c-black;
 }

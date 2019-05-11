@@ -1,0 +1,10 @@
+//mixin section__subtitle::before "-"
+@mixin bef($w: 20px, $h: 3px, $l: 0px, $t: 0px, $b: #000) {
+  content: "";
+  position: absolute;
+  width: $w;
+  height: $h;
+  left: $l;
+  top: $t;
+  background: $b;
+}

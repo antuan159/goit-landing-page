@@ -1,0 +1,23 @@
+//  Square list item
+//
+//  Default styles, classes for get squares colors
+
+@mixin square-default {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+}
+
+@mixin square {
+  @each $i, $c in $square-colors {
+    .#{$i}-square {
+      position: relative;
+
+      &::after {
+        @include square-default;
+        content: '';
+        background-color: #{$c};
+      }
+    }
+  }
+}
