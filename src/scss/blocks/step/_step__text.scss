@@ -1,0 +1,6 @@
+.step__text {
+  @include fz(16px);
+  margin: 0;
+  font-family: $f-acrom-regular;
+  color: $c-mako;
+}

@@ -1,9 +1,0 @@
-.section-desc__text {
-  @include font(16px, $f-acrom-regular, $c-mako);
-  margin: 0;
-  text-align: center;
-
-  @media screen and ($m-tablet) {
-    max-width: 300px;
-  }
-}

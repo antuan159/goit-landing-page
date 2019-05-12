@@ -1,0 +1,12 @@
+.description__text {
+  @include fz(16px);
+  margin: 0;
+  font-family: $f-acrom-regular;
+  color: $c-mako;
+  text-align: center;
+
+  @include mq(tablet) {
+    max-width: 300px;
+    text-align: left;
+  }
+}

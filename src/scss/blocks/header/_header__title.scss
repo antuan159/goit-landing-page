@@ -1,0 +1,16 @@
+.header__title {
+  @include fz(36px);
+  margin: 0 0 30px;
+  font-family: $f-acrom-extra-bold;
+  color: $c-black;
+  line-height: 40px;
+  text-transform: uppercase;
+
+  @include mq(small, max) {
+    @include fz(28px);
+  }
+
+  @include mq(tablet, max) {
+    @include fz(32px);
+  }
+}

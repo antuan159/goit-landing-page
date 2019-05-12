@@ -1,0 +1,7 @@
+.slash-block__text {
+  @include fz(18px);
+  margin: 0;
+  font-family: $f-acrom-medium;
+  color: $c-orange;
+  line-height: 20px;
+}

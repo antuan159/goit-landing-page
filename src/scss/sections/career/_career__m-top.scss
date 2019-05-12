@@ -1,0 +1,5 @@
+.career__m-top {
+  @include mq(desktop) {
+    margin-top: -75px;
+  }
+}
