@@ -4,7 +4,7 @@
 
   .container {
     @include mq(tablet) {
-      background-image: url(../img/sections/hard.jpg);
+      background-image: url('../img/sections/hard.jpg');
       background-repeat: no-repeat;
       background-position: left -10% center;
       background-size: 56%;

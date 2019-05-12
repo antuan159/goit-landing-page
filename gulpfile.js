@@ -9,6 +9,7 @@ let gulp = require('gulp'),
   htmlmin = require('gulp-html-minifier'),
   imagemin = require('gulp-imagemin'),
   rename = require('gulp-rename'),
+  sassLint = require('gulp-sass-lint'),
   gcmq = require('gulp-group-css-media-queries'),
   browserSync = require('browser-sync').create();
 
@@ -16,6 +17,13 @@ gulp.task('minify', function () {
   return gulp.src('src/*.html')
   .pipe(htmlmin({collapseWhitespace: true}))
   .pipe(gulp.dest('build'))
+});
+
+gulp.task('lint', function () {
+  return gulp.src('src/scss/**/*.scss')
+  .pipe(sassLint())
+  .pipe(sassLint.format())
+  .pipe(sassLint.failOnError())
 });
 
 gulp.task('sass', function () {
@@ -77,11 +85,11 @@ gulp.task('serve', function () {
 });
 
 gulp.task('watch', function () {
-  gulp.watch('src/scss/**/*.scss', gulp.series('sass'));
+  gulp.watch('src/scss/**/*.scss', gulp.series('sass', 'lint'));
 });
 
 gulp.task('default', gulp.series(
-  gulp.parallel('sass'),
+  gulp.parallel('sass', 'lint'),
   gulp.parallel('watch', 'serve')
 ));
 

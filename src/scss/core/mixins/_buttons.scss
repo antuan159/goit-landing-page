@@ -13,8 +13,8 @@
 @mixin button-size {
   @each $item, $size in $button-sizes {
     &-#{$item} {
-      padding-left: $size;
       padding-right: $size;
+      padding-left: $size;
     }
   }
 }
@@ -25,11 +25,11 @@
   @include box-model;
   @include fz(16px);
   padding: 1rem 0;
-  font-family: $f-acrom-extra-bold;
   color: $c-white;
-  background-color: map_get($buttons-color, primary);
-  box-shadow: 0 9px 14px map_get($buttons-color, primary-shadow);
+  font-family: $f-acrom-extra-bold;
   border: 0;
+  background-color: map-get($buttons-color, primary);
+  box-shadow: 0 9px 14px map-get($buttons-color, primary-shadow);
   cursor: pointer;
 
   @include mq(tablet, max) {

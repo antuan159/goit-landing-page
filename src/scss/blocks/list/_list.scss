@@ -15,8 +15,8 @@
 
   @include mq(tablet) {
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
+    justify-content: space-between;
     padding: 0;
   }
 }
