@@ -1,0 +1,10 @@
+//   Before line element
+@mixin before($w: 20px, $h: 3px, $l: 0px, $t: 0px, $b: #000) {
+  content: '';
+  position: absolute;
+  top: $t;
+  left: $l;
+  width: $w;
+  height: $h;
+  background: $b;
+}

@@ -1,67 +1,80 @@
+//  Core
+//  ----
+
 //  Normalize
-@import "common/vendors/normalize";
+@import "core/vendors/normalize";
 
 //  Grid
-@import "common/grid/flexboxgrid";
+@import "core/grid/flexboxgrid";
 
 //  Settings
-@import "common/settings/variable";
+@import "core/settings/variable";
 
 //  Mixins
-@import "common/mixins/bef";
-@import "common/mixins/buttons";
-@import "common/mixins/font-size";
-@import "common/mixins/square";
-@import "common/mixins/breackpoints";
+@import "core/mixins/before";
+@import "core/mixins/buttons";
+@import "core/mixins/font-size";
+@import "core/mixins/square";
+@import "core/mixins/breackpoints";
 
 //  Fonts
-@import "common/fonts";
+@import "core/fonts";
 
 //  Basic
-@import "common/basic";
+@import "core/basic";
 
-//  Attention
-@import "attention/attention";
 
-@import "description/description";
-@import "description/description__head";
-@import "description/description__text";
+//  Sections
+//  --------
 
 //  Career
-@import "career/career";
-@import "career/career__m-top";
+@import "sections/career/career";
+@import "sections/career/career__m-top";
 
 //  Simple-step
-@import "simple-step/simple-step";
-@import "simple-step/simple-step__top-line";
+@import "sections/simple-step/simple-step";
+@import "sections/simple-step/simple-step__top-line";
 
 //  Video-step
-@import "video-step/video-step";
-@import "video-step/video-step__top-line";
-@import "video-step/video-step__center-line";
+@import "sections/video-step/video-step";
+@import "sections/video-step/video-step__top-line";
+@import "sections/video-step/video-step__center-line";
 
-@import "header/header";
-@import "header/header__title";
-@import "header/header_pt";
-@import "header/header_pb";
-@import "header/header__subtitle";
-@import "header/header__overlay";
+//  Attention
+@import "sections/attention/attention";
+
+
+//  Blocks
+//  ------
+
+//  Description
+@import "blocks/description/description";
+@import "blocks/description/description__head";
+@import "blocks/description/description__text";
+
+// Header
+@import "blocks/header/header";
+@import "blocks/header/header__title";
+@import "blocks/header/header_pt";
+@import "blocks/header/header_pb";
+@import "blocks/header/header__subtitle";
+@import "blocks/header/header__overlay";
 
 //  List
-@import "list/list";
-@import "list/list_pl";
-@import "list/list__item";
+@import "blocks/list/list";
+@import "blocks/list/list_pl";
+@import "blocks/list/list__item";
 
 //  Step
-@import "step/step";
-@import "step/step__text";
-@import "step/step__text_head";
-@import "step/step__text_upper";
+@import "blocks/step/step";
+@import "blocks/step/step__text";
+@import "blocks/step/step__text_head";
+@import "blocks/step/step__text_upper";
 
 //  Slash-block
-@import "slash-block/slash-block";
-@import "slash-block/slash-block_cut";
-@import "slash-block/slash-block__text";
+@import "blocks/slash-block/slash-block";
+@import "blocks/slash-block/slash-block_cut";
+@import "blocks/slash-block/slash-block__text";
 
 //  Button
-@import "button/button";
+@import "blocks/button/button";

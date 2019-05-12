@@ -1,8 +1,11 @@
+//  Function which takes px and returns rem
+//  16px base font-size
 @function calculateRem($size) {
   $remSize: $size / 16px;
   @return #{$remSize}rem;
 }
 
+//  Mixin which translates px to rem
 @mixin fz($f-size) {
   font-size: calculateRem($f-size);
 }

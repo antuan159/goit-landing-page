@@ -8,7 +8,7 @@
 
   @include mq(tablet, max) {
     &::before {
-      @include bef(50px, 4px, 50%, calc(100% + 10px));
+      @include before(50px, 4px, 50%, calc(100% + 10px));
       transform: translateX(-50%);
     }
   }
@@ -18,7 +18,7 @@
     padding-left: 52px;
 
     &::before {
-      @include bef(32px, 4px, 1px, 9px);
+      @include before(32px, 4px, 1px, 9px);
     }
   }
 }
