@@ -1,8 +1,0 @@
-.course-list__subtitle {
-  @include txt($f-acrom-regular, $fz-14px, $c-shade-blue);
-  @include margin();
-  
-  @media (max-width: 767px) {
-    padding-right: 20px;
-  }
-}

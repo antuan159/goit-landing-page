@@ -1,0 +1,72 @@
+@include square;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.25;
+
+  @include mq(tablet, max) {
+    font-size: 14px;
+  }
+
+  @include mq(tablet) {
+    font-size: 12px;
+  }
+
+  @include mq(desktop) {
+    font-size: 16px;
+  }
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+  @include mq(small, max) {
+    padding: 0 15px;
+  }
+
+  @include mq(tablet, max) {
+    max-width: 448px;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header,
+.footer {
+  flex: 0 0 auto;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.center{
+  margin: 0 auto;
+}

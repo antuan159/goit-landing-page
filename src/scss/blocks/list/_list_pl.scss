@@ -1,0 +1,13 @@
+.list_pl {
+  @include mq(small, max) {
+    padding-left: 32px;
+  }
+
+  @include mq(tablet, max) {
+    padding-left: 32px;
+  }
+
+  @include mq(tablet) {
+    padding-left: 32px;
+  }
+}

@@ -1,0 +1,18 @@
+.attention {
+  padding: 2.5rem 0 3.75rem;
+  border-bottom: 1px solid $c-section-border;
+
+  .container {
+    @include mq(tablet) {
+      background-image: url(../img/sections/hard.jpg);
+      background-repeat: no-repeat;
+      background-position: left -10% center;
+      background-size: 56%;
+    }
+
+    @include mq(desktop) {
+      background-position: left 4% top;
+      background-size: contain;
+    }
+  }
+}
