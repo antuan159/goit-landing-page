@@ -6,13 +6,13 @@
     margin-left: 1.25rem;
   }
 
-  &:before {
+  &::before {
     content: '';
     position: absolute;
+    bottom: 0;
+    left: -9px;
     width: 3px;
     height: 30px;
-    left: -9px;
-    bottom: 0;
     background-color: $c-black;
     transform: rotate(20deg);
   }

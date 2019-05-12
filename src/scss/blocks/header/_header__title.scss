@@ -1,8 +1,8 @@
 .header__title {
   @include fz(36px);
   margin: 0 0 30px;
-  font-family: $f-acrom-extra-bold;
   color: $c-black;
+  font-family: $f-acrom-extra-bold;
   line-height: 40px;
   text-transform: uppercase;
 

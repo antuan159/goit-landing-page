@@ -27,14 +27,14 @@
     }
 
     &::before {
+      @include fz(24px);
       counter-increment: step;
       content: counter(step, decimal-leading-zero)'.';
       position: absolute;
       top: 0;
       left: -10px;
-      @include fz(24px);
-      font-family: $f-acrom-extra-bold;
       color: $c-black;
+      font-family: $f-acrom-extra-bold;
     }
 
     &::after {
@@ -47,15 +47,15 @@
     padding-left: 20px;
 
     &::before {
+      @include fz(10px);
       counter-increment: step;
       content: '[0'counter(step, decimal-leading-zero)']';
       position: absolute;
       top: 10px;
       left: -24px;
       padding: 2px;
-      @include fz(10px);
-      font-family:  $f-acrom-bold;
       color: $c-white;
+      font-family:  $f-acrom-bold;
       background-color: $c-orange;
       transform: rotate(-90deg);
 
