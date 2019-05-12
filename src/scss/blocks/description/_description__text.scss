@@ -1,8 +1,8 @@
 .description__text {
   @include fz(16px);
   margin: 0;
-  font-family: $f-acrom-regular;
   color: $c-mako;
+  font-family: $f-acrom-regular;
   text-align: center;
 
   @include mq(tablet) {
