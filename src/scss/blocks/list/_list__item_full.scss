@@ -1,0 +1,10 @@
+.list__item_full {
+  &:not(:last-child) {
+    margin-bottom: 30px;
+  }
+
+  &::after {
+    top: 6px;
+    left: -32px;
+  }
+}

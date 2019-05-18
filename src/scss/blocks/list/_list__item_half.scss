@@ -1,0 +1,25 @@
+.list__item_half {
+  margin-bottom: 30px;
+  padding-left: 44px;
+  overflow: hidden;
+
+  @include mq(tablet, max) {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @include mq(tablet) {
+    width: 50%;
+    padding-right: 30px;
+
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0;
+    }
+  }
+
+  &::after {
+    top: 30px;
+    left: 20px;
+  }
+}

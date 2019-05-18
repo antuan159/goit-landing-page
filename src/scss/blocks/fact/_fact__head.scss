@@ -1,0 +1,11 @@
+.fact__head {
+  @include fz(28px);
+  margin: 0 0 10px;
+  color: $c-black;
+  font-family: $f-acrom-extra-bold;
+  text-transform: uppercase;
+
+  small {
+    @include fz(16px);
+  }
+}

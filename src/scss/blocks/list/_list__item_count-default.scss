@@ -1,0 +1,12 @@
+.list__item_count-default {
+  &::before {
+    @include fz(24px);
+    counter-increment: step;
+    content: counter(step, decimal-leading-zero) '.';
+    position: absolute;
+    top: 0;
+    left: -10px;
+    color: $c-black;
+    font-family: $f-acrom-extra-bold;
+  }
+}

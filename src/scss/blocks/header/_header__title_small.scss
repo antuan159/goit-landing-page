@@ -1,0 +1,8 @@
+.header__title_small {
+  @include fz(20px);
+  margin: 0;
+
+  @include mq(small, max) {
+    @include fz(20px);
+  }
+}
