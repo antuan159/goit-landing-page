@@ -16,6 +16,7 @@
 @import 'core/mixins/font-size';
 @import 'core/mixins/square';
 @import 'core/mixins/breackpoints';
+@import 'core/mixins/selection';
 
 //  Fonts
 @import 'core/fonts';
@@ -26,6 +27,13 @@
 
 //  Sections
 //  --------
+
+
+//  Fact
+@import 'sections/dry-facts/dry-facts';
+
+//  Plus
+@import 'sections/plus/plus';
 
 //  Career
 @import 'sections/career/career';
@@ -47,6 +55,15 @@
 //  Blocks
 //  ------
 
+//  Fact
+@import 'blocks/fact/fact-dry';
+@import 'blocks/fact/fact__head';
+@import 'blocks/fact/fact__title';
+@import 'blocks/fact/fact__desc';
+
+//  Picture
+@import 'blocks/picture/picture_p-bottom';
+
 //  Description
 @import 'blocks/description/description';
 @import 'blocks/description/description__head';
@@ -54,9 +71,10 @@
 
 // Header
 @import 'blocks/header/header';
-@import 'blocks/header/header__title';
 @import 'blocks/header/header_pt';
 @import 'blocks/header/header_pb';
+@import 'blocks/header/header__title';
+@import 'blocks/header/header__title_small';
 @import 'blocks/header/header__subtitle';
 @import 'blocks/header/header__overlay';
 
@@ -64,6 +82,11 @@
 @import 'blocks/list/list';
 @import 'blocks/list/list_pl';
 @import 'blocks/list/list__item';
+@import 'blocks/list/list__item_count-default';
+@import 'blocks/list/list__item_count-bg';
+@import 'blocks/list/list__item_full';
+@import 'blocks/list/list__item_half';
+@import 'blocks/list/list__item_third';
 
 //  Step
 @import 'blocks/step/step';

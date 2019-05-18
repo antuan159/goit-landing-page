@@ -1,0 +1,10 @@
+@mixin selection {
+  @each $i, $c in $selection-color {
+    .#{$i}-selection {
+      @if $i == 'black' {
+        color: $c-white;
+      }
+      background-color: $c;
+    }
+  }
+}

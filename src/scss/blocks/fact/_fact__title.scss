@@ -1,0 +1,7 @@
+.fact__title {
+  @include fz(16px);
+  margin: 0 0 10px;
+  color: $c-black;
+  font-family: $f-acrom-medium;
+  line-height: 1.5rem;
+}

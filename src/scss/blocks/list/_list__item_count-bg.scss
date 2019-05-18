@@ -1,0 +1,19 @@
+.list__item_count-bg {
+  &::before {
+    @include fz(10px);
+    counter-increment: step;
+    content: '[0' counter(step, decimal-leading-zero) ']';
+    position: absolute;
+    top: 10px;
+    left: -24px;
+    padding: 2px;
+    color: $c-white;
+    font-family: $f-acrom-bold;
+    background-color: $c-orange;
+    transform: rotate(-90deg);
+
+    @include mq(small, max) {
+      left: -6px;
+    }
+  }
+}
