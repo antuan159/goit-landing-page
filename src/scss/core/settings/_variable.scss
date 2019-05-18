@@ -8,6 +8,7 @@
 //  3. Typography
 //  4. Square
 //  5. Button
+//  6. Selection text color
 
 //  1. Global
 //  ---------
@@ -50,24 +51,33 @@ $f-futura-medium: 'FuturaMedium', sans-serif;
 //  ---------
 
 $square-colors: (
-  dark: #000,
-  light: #17ecff
+  'black': $c-black,
+  'aqua': $c-light-blue,
+  'orange': $c-orange
 );
 
 //  5. Button
 //  ---------
 
 $buttons-color: (
-  primary: #ff6b08,
-  hover: #17ecff,
-  active: #06a4b2,
-  primary-shadow: rgba(196, 87, 15, .74),
-  hover-shadow: rgba(23, 236, 255, .74)
+  'primary': #ff6b08,
+  'hover': $c-light-blue,
+  'active': #06a4b2,
+  'primary-shadow': rgba(196, 87, 15, .74),
+  'hover-shadow': rgba(23, 236, 255, .74)
 );
 
 $button-sizes: (
-  default: 1rem,
-  small: 1.25rem,
-  medium: 1.875rem,
-  large: 2.125rem
+  'default': 1rem,
+  'small': 1.25rem,
+  'medium': 1.875rem,
+  'large': 2.125rem
+);
+
+//  6. Selection text color
+//  -----------------------
+
+$selection-color: (
+  'black': $c-black,
+  'aqua': $c-light-blue
 );
