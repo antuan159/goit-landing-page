@@ -1,0 +1,9 @@
+.social__item {
+  display: inline-block;
+  margin-left: 14px;
+  text-decoration: none;
+
+  .fab {
+    color: $c-white;
+  }
+}

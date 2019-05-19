@@ -3,5 +3,9 @@
   border-bottom: 1px solid $c-section-border;
   background-image: url('../img/sections/simple-step.png');
   background-repeat: no-repeat;
-  background-position: 30% 40px;
+  background-position: 38% 40px;
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    background-image: url('../img/sections/simple-step@2x.png');
+  }
 }

@@ -1,0 +1,9 @@
+.description_banner {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 30px;
+
+  @include mq(tablet) {
+    padding-left: 60px;
+  }
+}

@@ -28,16 +28,17 @@
 //  Sections
 //  --------
 
+//  Buy
+@import 'sections/buy/buy';
 
 //  Fact
-@import 'sections/dry-facts/dry-facts';
+@import 'sections/fact-dry/fact-dry';
 
 //  Plus
 @import 'sections/plus/plus';
 
 //  Career
 @import 'sections/career/career';
-@import 'sections/career/career__m-top';
 
 //  Simple-step
 @import 'sections/simple-step/simple-step';
@@ -55,8 +56,18 @@
 //  Blocks
 //  ------
 
+//  Header
+@import 'blocks/header/header';
+
+//  Social
+@import 'blocks/social/social';
+@import 'blocks/social/social__item';
+
+//  Burger
+@import 'blocks/burger/burger';
+@import 'blocks/burger/burger__item';
+
 //  Fact
-@import 'blocks/fact/fact-dry';
 @import 'blocks/fact/fact__head';
 @import 'blocks/fact/fact__title';
 @import 'blocks/fact/fact__desc';
@@ -66,17 +77,22 @@
 
 //  Description
 @import 'blocks/description/description';
+@import 'blocks/description/description_banner';
 @import 'blocks/description/description__head';
+@import 'blocks/description/description__head_banner';
+@import 'blocks/description/description__head_white';
 @import 'blocks/description/description__text';
+@import 'blocks/description/description__text_gray';
 
 // Header
-@import 'blocks/header/header';
-@import 'blocks/header/header_pt';
-@import 'blocks/header/header_pb';
-@import 'blocks/header/header__title';
-@import 'blocks/header/header__title_small';
-@import 'blocks/header/header__subtitle';
-@import 'blocks/header/header__overlay';
+@import 'blocks/head/head';
+@import 'blocks/head/head_pt';
+@import 'blocks/head/head_pb';
+@import 'blocks/head/head__title';
+@import 'blocks/head/head__title_small';
+@import 'blocks/head/head__title_big';
+@import 'blocks/head/head__subtitle';
+@import 'blocks/head/head__overlay';
 
 //  List
 @import 'blocks/list/list';
@@ -98,6 +114,9 @@
 @import 'blocks/slash-block/slash-block';
 @import 'blocks/slash-block/slash-block_cut';
 @import 'blocks/slash-block/slash-block__text';
+
+//  Btn
+@import 'blocks/btn/btn_banner';
 
 //  Button
 @import 'blocks/button/button';

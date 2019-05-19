@@ -7,6 +7,13 @@
   padding-left: 2rem;
 }
 
+@media screen and (max-width: 767px) {
+  .container-fluid {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+}
+
 .row {
   box-sizing: border-box;
   display: -ms-flexbox;

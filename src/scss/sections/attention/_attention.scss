@@ -8,6 +8,10 @@
       background-repeat: no-repeat;
       background-position: left -10% center;
       background-size: 56%;
+
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-image: url('../img/sections/hard@2x.jpg');
+      }
     }
 
     @include mq(desktop) {

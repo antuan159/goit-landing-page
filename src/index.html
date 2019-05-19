@@ -1,28 +1,98 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Go IT Landing</title>
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+        crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 
 <body>
 <div class="wrapper">
-  <header class="header">header</header>
+  <header class="header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs">
+          <a href="#" class="logo">
+            <picture>
+              <source srcset="img/logo.png, img/logo@2x.png 2x" media="(min-width: 768px)">
+              <img srcset="img/logo.png, img/logo@2x.png 2x" alt="goit">
+            </picture>
+          </a>
+        </div>
+
+        <div class="col-xs">
+          <div class="burger">
+            <span class="burger__item"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
 
   <main class="main">
+    <section class="buy">
+      <div class="social">
+        <a href="#" class="social__item">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+
+        <a href="#" class="social__item">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-7">
+            <header class="head head_pb">
+              <h2 class="head__title head__title_big">
+                [ Пошаговый Видео-курс &nbsp;_&nbsp;]
+              </h2>
+            </header>
+
+            <div class="description description_banner">
+              <p class="description__head description__head_white description__head_banner">Старт в карьере
+                web-разработчика с 0» для тех, кто давно хотел зарабатывать
+                больше работая в IT, но не знал, где реализовать себя</p>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-4 col-sm-offset-1">
+            <div class="description">
+              <p class="description__head description__head_white">Открой для себя способ начать карьеру в сфере IT</p>
+
+              <p class="description__text description__text_gray">/ Без математического склада ума, работая в комфортных
+                условиях по приятному
+                графику над интересными задачами и получая доход в $$$.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-xs">
+            <div class="btn btn_banner">
+              <button class="button button-small default">Приобрести курс</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="fact-dry">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-4">
-            <header class="header header_pb">
-              <h2 class="header__title">[ вот сухие факты &nbsp;_&nbsp;]</h2>
+            <header class="head head_pb">
+              <h2 class="head__title">[ вот сухие факты &nbsp;_&nbsp;]</h2>
 
-              <h3 class="header__subtitle">IT-отрасль — №1 в СНГ по выводу денег с фрилансерских бирж и по росту
+              <h3 class="head__subtitle">IT-отрасль — №1 в СНГ по выводу денег с фрилансерских бирж и по росту
                 количества вакансий. </h3>
             </header>
           </div>
@@ -65,7 +135,9 @@
               </li>
               <li class="list__item list__item_half orange-square">
                 <article class="fact">
-                  <p class="fact__head">20 <small>[ тыс. ]</small></p>
+                  <p class="fact__head">20
+                    <small>[ тыс. ]</small>
+                  </p>
 
                   <h3 class="fact__title">
                     <span class="aqua-selection">[ Новых рабочих мест в IT появляется ежегодно ]</span>
@@ -89,8 +161,8 @@
               </picture>
             </div>
 
-            <header class="header">
-              <h2 class="header__title header__title_small">
+            <header class="head">
+              <h2 class="head__title head__title_small">
                 <span class="black-selection">За IT сытое и стабильное будущее</span>
               </h2>
             </header>
@@ -105,12 +177,12 @@
           </div>
 
           <div class="col-xs-12 col-sm-6 col-sm-offset-1">
-            <header class="header header_pb">
-              <h2 class="header__title">
+            <header class="head head_pb">
+              <h2 class="head__title">
                 <span class="black-selection">[ при этом кроме цифр &nbsp;_&nbsp;]</span>
               </h2>
 
-              <h3 class="header__subtitle">У web-разработчиков есть и другие преимущества, которые тебе
+              <h3 class="head__subtitle">У web-разработчиков есть и другие преимущества, которые тебе
                 понравятся... </h3>
             </header>
 
@@ -170,10 +242,10 @@
       <div class="container">
         <div class="row">
           <div class="col-xs-12 col-sm-6 col-sm-offset-6">
-            <header class="header header_pb">
-              <h2 class="header__title">[ Однако предупреждаем &nbsp;_&nbsp;]</h2>
+            <header class="head head_pb">
+              <h2 class="head__title">[ Однако предупреждаем &nbsp;_&nbsp;]</h2>
 
-              <h3 class="header__subtitle">Получить навыки, нужные, чтобы зарабатывать в IT может быть
+              <h3 class="head__subtitle">Получить навыки, нужные, чтобы зарабатывать в IT может быть
                 долго и сложно….</h3>
             </header>
 
@@ -237,10 +309,10 @@
           </div>
 
           <div class="col-xs-12 col-sm-6">
-            <header class="header">
-              <h2 class="header__title">Карьера веб-разработчика&nbsp;_&nbsp;&#93;</h2>
+            <header class="head">
+              <h2 class="head__title">Карьера веб-разработчика&nbsp;_&nbsp;&#93;</h2>
 
-              <h3 class="header__subtitle">Это твоя возможность зарабатывать в IT без необходимости изучать
+              <h3 class="head__subtitle">Это твоя возможность зарабатывать в IT без необходимости изучать
                 тонны
                 нудной теории, которая не ведет к заветной работе и деньгам</h3>
             </header>
@@ -258,10 +330,10 @@
             </div>
           </div>
 
-          <div class="col-xs-12 col-sm-6 career__m-top">
+          <div class="col-xs-12 col-sm-6">
             <picture>
               <source srcset="img/sections/8_2.jpg, img/sections/8_2@2x.jpg 2x" media="(min-width: 768px)">
-              <img srcset="img/sections/8_2.jpg, img/sections/8_2@2x.jpg 2x" alt="career">
+              <img srcset="img/sections/8_2.jpg, img/sections/8_2@2x.jpg 2x" class="img-full" alt="career">
             </picture>
           </div>
         </div>
@@ -272,12 +344,12 @@
       <div class="container">
         <div class="row simple-step__top-line">
           <div class="col-xs-12 col-sm-5">
-            <header class="header">
-              <h2 class="header__title">
+            <header class="head">
+              <h2 class="head__title">
                 <span class="black-selection">&#91;&nbsp;4 простых шага</span> чтобы начать&nbsp;_&nbsp;&#93;
               </h2>
 
-              <h3 class="header__subtitle">&laquo;Делать сайты, за которые тебе будут готовы платить хорошие
+              <h3 class="head__subtitle">&laquo;Делать сайты, за которые тебе будут готовы платить хорошие
                 деньги&raquo;</h3>
             </header>
           </div>
@@ -339,10 +411,10 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-6 col-sm-offset-1">
-            <header class="header header_pt">
-              <h2 class="header__title">&#91;&nbsp;Представляем пошаговый Видео-курс&nbsp;_&nbsp;&#93;</h2>
+            <header class="head head_pt">
+              <h2 class="head__title">&#91;&nbsp;Представляем пошаговый Видео-курс&nbsp;_&nbsp;&#93;</h2>
 
-              <h3 class="header__subtitle">&laquo;Быстрый старт карьеры веб-разработчика с Нуля&raquo;</h3>
+              <h3 class="head__subtitle">&laquo;Быстрый старт карьеры веб-разработчика с Нуля&raquo;</h3>
             </header>
           </div>
         </div>
@@ -435,5 +507,4 @@
 
 <script src="script/main.js"></script>
 </body>
-
 </html>
