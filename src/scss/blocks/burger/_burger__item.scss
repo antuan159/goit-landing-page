@@ -1,0 +1,27 @@
+.burger__item {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 3px;
+  background-color: $c-white;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: 0;
+    width: 24px;
+    height: 3px;
+    background-color: $c-white;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 28px;
+    height: 3px;
+    background-color: $c-white;
+  }
+}

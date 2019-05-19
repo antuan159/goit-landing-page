@@ -7,6 +7,10 @@
       background-image: url('../img/sections/graf.jpg');
       background-repeat: no-repeat;
       background-position: right bottom;
+
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-image: url('../img/sections/graf@2x.jpg');
+      }
     }
   }
 }

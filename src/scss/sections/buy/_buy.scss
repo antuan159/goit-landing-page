@@ -1,0 +1,49 @@
+.buy {
+  position: relative;
+  padding: 8rem 0;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+
+  @include mq(small, max) {
+    background-image: url('../img/sections/main_extra.jpg');
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('../img/sections/main_extra@2x.jpg');
+    }
+  }
+
+  @include mq(tablet, max) {
+    background-image: url('../img/sections/main_mob.jpg');
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('../img/sections/main_mob@2x.jpg');
+    }
+  }
+
+  @include mq(tablet) {
+    background-image: url('../img/sections/main.jpg');
+
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('../img/sections/main@2x.jpg');
+    }
+  }
+
+  &::after {
+    @include mq(tablet) {
+      content: '';
+      position: absolute;
+      bottom: -30px;
+      left: 60%;
+      width: 530px;
+      height: 500px;
+      background-image: url('../img/sections/people.png');
+      transform: translateX(-50%);
+
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-image: url('../img/sections/people@2x.png');
+      }
+    }
+  }
+}

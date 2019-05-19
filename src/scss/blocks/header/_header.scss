@@ -1,11 +1,8 @@
 .header {
-  text-align: center;
-
-  @include mq(tablet, max) {
-    padding-bottom: 50px;
-  }
-
-  @include mq(tablet) {
-    text-align: left;
-  }
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 24px 0;
 }

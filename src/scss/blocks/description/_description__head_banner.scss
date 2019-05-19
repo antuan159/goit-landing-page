@@ -1,0 +1,33 @@
+.description__head_banner {
+  position: relative;
+
+  @include mq(tablet) {
+    max-width: 400px;
+  }
+
+  &::before {
+    @include mq(tablet) {
+      @include fz(16px);
+      content: '<';
+      position: absolute;
+      top: 0;
+      left: -20px;
+      color: $c-light-blue;
+      font-family: $f-acrom-medium;
+      font-size: 20px;
+    }
+  }
+
+  &::after {
+    @include mq(tablet) {
+      @include fz(16px);
+      content: '/>';
+      position: absolute;
+      right: -20px;
+      bottom: 0;
+      color: $c-light-blue;
+      font-family: $f-acrom-medium;
+      font-size: 20px;
+    }
+  }
+}

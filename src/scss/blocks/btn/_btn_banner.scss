@@ -1,0 +1,5 @@
+.btn_banner {
+  @include mq(tablet) {
+    padding-left: 60px;
+  }
+}

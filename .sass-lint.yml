@@ -98,14 +98,14 @@ rules:
         - counter-increment
         - content
         - quotes
-        - display
-        - visibility
         - position
         - z-index
         - top
         - right
         - bottom
         - left
+        - display
+        - visibility
         - box-sizing
         - grid
         - grid-after
@@ -162,9 +162,6 @@ rules:
         - padding-left
         - float
         - clear
-        - overflow
-        - overflow-x
-        - overflow-y
         - clip
         - zoom
         - columns
@@ -300,6 +297,9 @@ rules:
         - nav-right
         - nav-down
         - nav-left
+        - overflow
+        - overflow-x
+        - overflow-y
 
   property-units:
     - 1

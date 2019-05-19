@@ -1,0 +1,14 @@
+.head__title_big {
+  @include fz(66px);
+  margin: 0;
+  color: $c-white;
+  line-height: 5rem;
+
+  @include mq(small, max) {
+    line-height: 3rem;
+  }
+
+  @include mq(title, max) {
+    line-height: 3rem;
+  }
+}
