@@ -1,0 +1,12 @@
+.form {
+  padding: 40px 100px;
+  box-shadow: 0px 8px 14px 0px rgba(0, 0, 0, 0.15);
+
+  @include mq(tablet) {
+    padding: 84px 40px;
+  }
+
+  @include mq(desktop) {
+    padding: 60px 90px;
+  }
+}

@@ -21,7 +21,7 @@ $c-black: #000;
 $c-mako: #3f4144;
 $c-orange: #ff6b08;
 $c-light-blue: #16ebfe;
-$c-light-black: rgba(0, 0, 0, .051);
+$c-light-black: rgba(0, 0, 0, 0.051);
 $c-ship-gray: #3c3b40;
 $c-silver-chalice: #a2a2a2;
 $c-mid-gray: #65666a;
@@ -31,53 +31,52 @@ $c-section-border: #f9f9f9;
 //  --------------
 
 $breakpoints: (
-  'small': 480px,
-  'tablet': 768px,
-  'desktop': 1200px
+  "small": 480px,
+  "tablet": 768px,
+  "desktop": 1200px
 );
 
 //  3. Typography
 //  -------------
 
-$f-acrom-bold: 'AcromBold', sans-serif;
-$f-acrom-extra-bold: 'AcromExtraBold', sans-serif;
-$f-acrom-medium: 'AcromMedium', sans-serif;
-$f-acrom-regular: 'AcromRegular', sans-serif;
-$f-futura-bold: 'FuturaBold', sans-serif;
-$f-futura-medium: 'FuturaMedium', sans-serif;
-
+$f-acrom-bold: "AcromBold", sans-serif;
+$f-acrom-extra-bold: "AcromExtraBold", sans-serif;
+$f-acrom-medium: "AcromMedium", sans-serif;
+$f-acrom-regular: "AcromRegular", sans-serif;
+$f-futura-bold: "FuturaBold", sans-serif;
+$f-futura-medium: "FuturaMedium", sans-serif;
 
 //  4. Square
 //  ---------
 
 $square-colors: (
-  'black': $c-black,
-  'aqua': $c-light-blue,
-  'orange': $c-orange
+  "black": $c-black,
+  "aqua": $c-light-blue,
+  "orange": $c-orange
 );
 
 //  5. Button
 //  ---------
 
 $buttons-color: (
-  'primary': #ff6b08,
-  'hover': $c-light-blue,
-  'active': #06a4b2,
-  'primary-shadow': rgba(196, 87, 15, .74),
-  'hover-shadow': rgba(23, 236, 255, .74)
+  "primary": #ff6b08,
+  "hover": $c-light-blue,
+  "active": #06a4b2,
+  "primary-shadow": rgba(196, 87, 15, 0.74),
+  "hover-shadow": rgba(23, 236, 255, 0.74)
 );
 
 $button-sizes: (
-  'default': 1rem,
-  'small': 1.25rem,
-  'medium': 1.875rem,
-  'large': 2.125rem
+  "default": 1rem,
+  "small": 1.25rem,
+  "medium": 1.875rem,
+  "large": 2.125rem
 );
 
 //  6. Selection text color
 //  -----------------------
 
 $selection-color: (
-  'black': $c-black,
-  'aqua': $c-light-blue
+  "black": $c-black,
+  "aqua": $c-light-blue
 );

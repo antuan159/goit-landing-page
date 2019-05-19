@@ -6,7 +6,7 @@
   text-align: center;
 
   @include mq(tablet) {
-    max-width: 300px;
+    // max-width: 300px;
     text-align: left;
   }
 }

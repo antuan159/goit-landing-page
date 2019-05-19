@@ -1,0 +1,11 @@
+.form__input_bor {
+  border: none;
+  width: 100%;
+
+  &::placeholder {
+    @include fz(18px);
+    color: $c-black;
+    font-family: $f-acrom-bold;
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,13 @@
+.slash-block_list {
+  max-width: 165px;
+  margin-bottom: 20px;
+
+  @include mq(tablet, max) {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+
+  @include mq(desktop) {
+    max-width: 270px;
+  }
+}
