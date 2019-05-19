@@ -5,6 +5,10 @@
   background-repeat: no-repeat;
   background-position: 38% 40px;
 
+  @include mq(tablet, max) {
+    background-size: 66%;
+  }
+
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     background-image: url('../img/sections/simple-step@2x.png');
   }
