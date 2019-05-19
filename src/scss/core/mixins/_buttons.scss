@@ -19,8 +19,20 @@
   }
 }
 
+//  Button without shadow
+@mixin default {
+  &.default {
+    box-shadow: none;
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+}
+
 //  Button default
 @mixin button {
+  @include default;
   @include button-size;
   @include box-model;
   @include fz(16px);

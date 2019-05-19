@@ -1,0 +1,13 @@
+.head {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+
+  @include mq(tablet, max) {
+    padding-bottom: 50px;
+  }
+
+  @include mq(tablet) {
+    text-align: left;
+  }
+}
