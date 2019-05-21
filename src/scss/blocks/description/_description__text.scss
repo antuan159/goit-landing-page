@@ -3,10 +3,8 @@
   margin: 0;
   color: $c-mako;
   font-family: $f-acrom-regular;
-  text-align: center;
 
-  @include mq(tablet) {
-    // max-width: 300px;
-    text-align: left;
+  @include mq(tablet, max) {
+    text-align: center;
   }
 }

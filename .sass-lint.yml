@@ -84,7 +84,7 @@ rules:
   no-transition-all: 0
   no-url-protocols: 1
   no-vendor-prefixes:
-    - 1
+    - 0
     - additional-identifiers: []
       excluded-identifiers: []
   placeholder-in-extend: 1
