@@ -1,0 +1,5 @@
+.description__text_cut {
+  @include mq(tablet) {
+    max-width: 300px;
+  }
+}
