@@ -1,0 +1,5 @@
+.list__item_last {
+  @include mq(desktop) {
+    min-width: 294px;
+  }
+}

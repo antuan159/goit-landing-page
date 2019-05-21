@@ -1,0 +1,5 @@
+.bonus__top-line {
+  @include mq(tablet, max) {
+    padding-bottom: 2.5rem;
+  }
+}

@@ -1,0 +1,22 @@
+.after-cource {
+  padding: 2.5rem 0 3.75rem;
+  border-bottom: 1px solid $c-section-border;
+
+  .container {
+    @include mq(tablet) {
+      background-image: url('../img/sections/15.jpg');
+      background-repeat: no-repeat;
+      background-position: right -10% center;
+      background-size: 46%;
+
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background-image: url('../img/sections/15@2x.jpg');
+      }
+    }
+
+    @include mq(desktop) {
+      background-position: right 4% top;
+      background-size: contain;
+    }
+  }
+}

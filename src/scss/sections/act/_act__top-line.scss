@@ -1,0 +1,5 @@
+.act__top-line {
+  @include mq(tablet, max) {
+    padding-bottom: 3.75rem;
+  }
+}

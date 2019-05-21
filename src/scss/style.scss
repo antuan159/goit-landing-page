@@ -24,7 +24,6 @@
 //  Basic
 @import 'core/basic';
 
-
 //  Sections
 //  --------
 
@@ -52,6 +51,19 @@
 //  Attention
 @import 'sections/attention/attention';
 
+// after-cource
+@import 'sections/after-cource/after-cource';
+
+// bonus
+@import 'sections/bonus/bonus';
+@import 'sections/bonus/bonus__top-line';
+
+// important
+@import 'sections/important/_important.scss';
+
+// act
+@import 'sections/act/act';
+@import 'sections/act/act__top-line';
 
 //  Blocks
 //  ------
@@ -82,7 +94,14 @@
 @import 'blocks/description/description__head_banner';
 @import 'blocks/description/description__head_white';
 @import 'blocks/description/description__text';
+@import 'blocks/description/description__text_сut';
 @import 'blocks/description/description__text_gray';
+@import 'blocks/description/description__text_bold';
+@import 'blocks/description/description__text_orange';
+@import 'blocks/description/description_pb';
+@import 'blocks/description/description__head_mb';
+@import 'blocks/description/description__text_mb';
+@import 'blocks/description/description__head_normal';
 
 // Header
 @import 'blocks/head/head';
@@ -92,6 +111,7 @@
 @import 'blocks/head/head__title_small';
 @import 'blocks/head/head__title_big';
 @import 'blocks/head/head__subtitle';
+@import 'blocks/head/head__subtitle_cut';
 @import 'blocks/head/head__overlay';
 
 //  List
@@ -103,6 +123,8 @@
 @import 'blocks/list/list__item_full';
 @import 'blocks/list/list__item_half';
 @import 'blocks/list/list__item_third';
+@import 'blocks/list/list__item_last';
+@import 'blocks/list/list__item_full-row';
 
 //  Step
 @import 'blocks/step/step';
@@ -114,9 +136,17 @@
 @import 'blocks/slash-block/slash-block';
 @import 'blocks/slash-block/slash-block_cut';
 @import 'blocks/slash-block/slash-block__text';
+@import 'blocks/slash-block/slash-block_list';
+@import 'blocks/slash-block/slash-block_mb';
 
 //  Btn
 @import 'blocks/btn/btn_banner';
 
 //  Button
 @import 'blocks/button/button';
+
+// form
+@import 'blocks/form/form';
+@import 'blocks/form/form__input';
+@import 'blocks/form/form__input_bor';
+@import 'blocks/form/form__text';

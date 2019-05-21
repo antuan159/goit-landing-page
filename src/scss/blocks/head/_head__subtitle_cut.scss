@@ -1,0 +1,5 @@
+.head__subtitle_cut {
+  @include mq(tablet) {
+    max-width: 320px;
+  }
+}

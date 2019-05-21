@@ -1,10 +1,6 @@
-.description__text {
+.form__text {
   @include fz(16px);
   margin: 0;
   color: $c-mako;
   font-family: $f-acrom-regular;
-
-  @include mq(tablet, max) {
-    text-align: center;
-  }
 }

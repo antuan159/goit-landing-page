@@ -1,0 +1,35 @@
+.list__item_full-row {
+  margin-bottom: 30px;
+  padding-left: 44px;
+  overflow: hidden;
+
+  @include mq(tablet, max) {
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  @include mq(tablet) {
+    width: 100%;
+    padding-right: 30px;
+
+    &:nth-last-child(1) {
+      margin-bottom: 0;
+    }
+  }
+
+  &::after {
+    top: 30px;
+    left: 20px;
+  }
+
+  &.orange-square {
+    &::after {
+      top: 10px;
+
+      @include mq(tablet) {
+        top: 14px;
+      }
+    }
+  }
+}
