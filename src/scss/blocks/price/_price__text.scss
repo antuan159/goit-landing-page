@@ -1,0 +1,9 @@
+.price__text {
+  @include fz(18px);
+  margin: 0;
+  font-family: $f-acrom-extra-bold;
+
+  @include mq(tablet, max) {
+    text-align: center;
+  }
+}
