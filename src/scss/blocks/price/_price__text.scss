@@ -1,6 +1,6 @@
 .price__text {
   @include fz(18px);
+  position: relative;
   margin: 0;
   font-family: $f-acrom-extra-bold;
-  position: relative;
 }

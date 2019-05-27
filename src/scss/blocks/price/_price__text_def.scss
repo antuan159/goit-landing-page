@@ -1,13 +1,14 @@
 .price__text_def {
   padding-left: 20px;
-  &:before {
-    content: "";
+
+  &::before {
+    content: '';
     position: absolute;
     z-index: 1;
     top: 9px;
     left: -30px;
-    height: 1px;
     width: 42px;
+    height: 1px;
     background-color: $c-white;
   }
 }

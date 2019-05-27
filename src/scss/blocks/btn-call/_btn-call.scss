@@ -1,11 +1,11 @@
 .btn-call {
-  color: $c-white;
   @include fz(10px);
+  padding: 8px 4px;
+  color: $c-white;
   font-family: $f-acrom-bold;
   text-transform: uppercase;
-  background: $c-blue;
   border: 1px solid $c-white;
-  padding: 8px 4px;
+  background: $c-blue;
 
   &:hover {
     box-shadow: $call-shadow;
