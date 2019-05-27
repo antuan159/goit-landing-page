@@ -1,0 +1,18 @@
+.politics {
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    background-image: url(../img/sections/footer.png);
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    right: 0;
+    top: 3px;
+    z-index: 1;
+  }
+}

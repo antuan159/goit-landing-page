@@ -4,13 +4,13 @@
 
   .container {
     @include mq(tablet) {
-      background-image: url('../img/sections/15.jpg');
+      background-image: url("../img/sections/15.jpg");
       background-repeat: no-repeat;
       background-position: right -10% center;
       background-size: 46%;
 
       @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-        background-image: url('../img/sections/15@2x.jpg');
+        background-image: url("../img/sections/15@2x.jpg");
       }
     }
 

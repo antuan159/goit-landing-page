@@ -1,0 +1,8 @@
+.contact__text {
+  @include fz(10px);
+  margin: 0;
+
+  @include mq(tablet) {
+    @include fz(16px);
+  }
+}

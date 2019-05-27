@@ -1,0 +1,5 @@
+.price_mb {
+  @include mq(tablet, max) {
+    margin-bottom: 30px;
+  }
+}

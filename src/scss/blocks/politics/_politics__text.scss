@@ -1,0 +1,10 @@
+.politics__text {
+  color: $c-silver-chalice;
+  @include fz(10px);
+  margin: 0;
+  font-family: $f-acrom-regular;
+
+  &:not(:last-of-type) {
+    margin-right: 20px;
+  }
+}

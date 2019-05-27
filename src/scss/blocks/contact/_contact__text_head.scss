@@ -1,0 +1,10 @@
+.contact__text_head {
+  @include fz(12px);
+  margin: 0;
+  font-family: $f-acrom-bold;
+  text-transform: uppercase;
+
+  @include mq(tablet) {
+    @include fz(18px);
+  }
+}

@@ -1,0 +1,17 @@
+.btn-call {
+  color: $c-white;
+  @include fz(10px);
+  font-family: $f-acrom-bold;
+  text-transform: uppercase;
+  background: $c-blue;
+  border: 1px solid $c-white;
+  padding: 8px 4px;
+
+  &:hover {
+    box-shadow: $call-shadow;
+  }
+
+  @include mq(tablet) {
+    @include fz(16px);
+  }
+}
