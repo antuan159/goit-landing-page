@@ -5,6 +5,7 @@ files:
     - 'src/scss/core/grid/_flexboxgrid.scss'
     - 'src/scss/core/vendors/_normalize.scss'
     - 'src/scss/core/settings/_variable.scss'
+    - 'src/scss/blocks/visually-hidden/visually-hidden.scss'
 
 rules:
   bem-depth:
