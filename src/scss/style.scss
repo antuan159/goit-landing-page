@@ -65,6 +65,10 @@
 @import 'sections/act/act';
 @import 'sections/act/act__top-line';
 
+// contacts
+@import 'sections/contacts/contacts';
+@import 'sections/contacts/contacts_fon';
+
 //  Blocks
 //  ------
 
@@ -101,7 +105,6 @@
 @import 'blocks/description/description_pb';
 @import 'blocks/description/description__head_mb';
 @import 'blocks/description/description__text_mb';
-@import 'blocks/description/description__head_normal';
 
 // Header
 @import 'blocks/head/head';
@@ -150,3 +153,35 @@
 @import 'blocks/form/form__input';
 @import 'blocks/form/form__input_bor';
 @import 'blocks/form/form__text';
+
+//price
+@import 'blocks/price/price';
+@import 'blocks/price/price__text';
+@import 'blocks/price/price__text_white';
+@import 'blocks/price/price__text_row';
+@import 'blocks/price/price__text_top-row';
+@import 'blocks/price/price__text_fs';
+@import 'blocks/price/price__text_def';
+@import 'blocks/price/price__text_pr';
+@import 'blocks/price/price_mb';
+
+//contact
+@import 'blocks/contact/contact';
+@import 'blocks/contact/contact__text';
+@import 'blocks/contact/contact__text_white';
+@import 'blocks/contact/contact__text_head';
+@import 'blocks/contact/contact__text_grey';
+@import 'blocks/contact/contact__text_link';
+
+//btn-call
+@import 'blocks/btn-call/btn-call';
+
+// visually-hidden
+@import 'blocks/visually-hidden/visually-hidden';
+
+// politics
+@import 'blocks/politics/politics';
+@import 'blocks/politics/politics__text';
+
+// footer
+@import 'blocks/footer/footer';

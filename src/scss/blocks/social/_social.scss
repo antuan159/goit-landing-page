@@ -4,8 +4,8 @@
   @include mq(tablet) {
     position: absolute;
     z-index: 1;
-    display: block;
     right: 2rem;
     bottom: 2rem;
+    display: block;
   }
 }
