@@ -150,7 +150,6 @@
 
 // form
 @import 'blocks/form/form';
-@import 'blocks/form/form__input';
 @import 'blocks/form/form__input_bor';
 @import 'blocks/form/form__text';
 
@@ -172,6 +171,7 @@
 @import 'blocks/contact/contact__text_head';
 @import 'blocks/contact/contact__text_grey';
 @import 'blocks/contact/contact__text_link';
+@import 'blocks/contact/contact__text_max';
 
 //btn-call
 @import 'blocks/btn-call/btn-call';
