@@ -1,15 +1,23 @@
 .form__input_bor {
   @include fz(18px);
   width: 100%;
+  margin-bottom: 10px;
   color: $c-black;
   font-family: $f-acrom-bold;
   line-height: 26px;
   border: 0;
+  border-bottom: 1px solid $c-black;
+  outline: none;
+  
 
   &::placeholder {
     @include fz(18px);
     color: $c-black;
     font-family: $f-acrom-bold;
     line-height: 26px;
+  }
+
+  &:focus {
+    border-color: $c-orange;
   }
 }

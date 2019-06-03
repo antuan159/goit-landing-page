@@ -1,0 +1,11 @@
+.contact__text_max {
+  @include mq(tablet, max) {
+    max-width: 72px;
+  }
+  @include mq(tablet) {
+    max-width: 100px;
+  }
+  @include mq(desktop) {
+    max-width: 150px;
+  }
+}
